@@ -1,0 +1,42 @@
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache 
+_autosave*
+*.drl
+gerber.*
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+
+flex/gerber
+gerber
+gerber/*
+flex/flex-backups
+flex/flex-backups/*
+
+# Project specific files
+adapter/adapter-backups
+
+**/sym-lib-table
+**/*-backups
+**/fp-lib-table
+**/*.kicad_sym
