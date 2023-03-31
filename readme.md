@@ -5,7 +5,12 @@ Probably one of the cheapest split keyboards you can build.
 
 ![Cheapino with Iceberg keycaps](cheapino.jpg "Ceapino")
 
-This is the result of really enjoying building keyboards, but not wanting to spend that much money on it. The pcb is reversible, connected using rj45, and utilizes a japanese duplex matrix, so only one mcu is needed(in fact it only uses 6 of the rj45 wires to support 18 switches and an encoder on the right side).
+This is the result of really enjoying building keyboards, 
+but not wanting to spend that much money on it. 
+The pcb is reversible, connected using rj45, 
+and utilizes a japanese duplex matrix, so only one
+mcu is needed(in fact it only uses 7 of the rj45 wires to 
+support 18 switches and an encoder on the right side).
 
 A qmk branch with support is located here: 
 https://github.com/tompi/qmk_firmware/tree/cheapino
