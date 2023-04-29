@@ -23,7 +23,7 @@ This can easily be the most expensive
 | Part         | Quantity | Where to get it | Estimated price (including shipping) |
 | ------------ | -------- | --------------- | --------------- |
 | Cheapino PCB |        4 | Upload the [PCB v1 gerber](https://github.com/tompi/cheapino/releases/download/v1.0/gerber.zip) to [JLCPCB](https://www.jlcpcb.com) (or other pcb house). | 20.00 (for 5 pcs) |
-| Waveshare RP2040-Zero |  2 | [AliExpress](https://www.aliexpress.com/item/3256804781611696.html) | 8.50 |
+| Waveshare RP2040-Zero |  2 | [AliExpress](https://www.aliexpress.com/item/3256804781611696.html) | 8.50 (for 2 pcs) |
 | RJ45 Socket |  4 | [AliExpress](https://www.aliexpress.com/item/32902228456.html) | 5.00 (for 10 pcs)|
 | EC11 Rotary encoder |  2 | [AliExpress](https://www.aliexpress.com/item/10000000931574.html) | 5.00 (for 2 pcs) |
 | Encoder knob |  2 | [AliExpress](https://www.aliexpress.com/item/32749281108.html) | 5.00 (for 2 pcs)|
