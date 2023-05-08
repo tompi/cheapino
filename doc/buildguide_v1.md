@@ -87,10 +87,10 @@ Try to solder one column at a time, use something to align the switches, and tap
 
 One trick from [TentacleSenpai69](https://www.reddit.com/user/TentacleSenpai69/) is to put on keycaps on a column and use a space bar to keep the column aligned, and then tape it.
 
-![Switches A1](images/switches_alt1.jpeg)
-![Switches A2](images/switches_alt2.jpeg)
-![Switches A3](images/switches_alt3.jpeg)
-![Switches A4](images/switches_alt4.jpeg)
+![Switches A1](images/switches_alt1.jpg)
+![Switches A2](images/switches_alt2.jpg)
+![Switches A3](images/switches_alt3.jpg)
+![Switches A4](images/switches_alt4.jpg)
 
 ### Step 4: Install the RJ45 sockets
 
