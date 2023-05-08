@@ -83,9 +83,14 @@ Next, it's time to install the switches.
 This can be a bit tricky to get straight, since there is only 3 pin holes.
 Try to solder one column at a time, use something to align the switches, and tape them down before soldering.
 
-One trick from [TentacleSenpai69](https://www.reddit.com/user/TentacleSenpai69/) is to put on keycaps on a column and use a space bar on top of that again, to keep the column aligned, and then tape it.
-
 ![Switches](images/switches.jpeg)
+
+One trick from [TentacleSenpai69](https://www.reddit.com/user/TentacleSenpai69/) is to put on keycaps on a column and use a space bar to keep the column aligned, and then tape it.
+
+![Switches A1](images/switches_alt1.jpeg)
+![Switches A2](images/switches_alt2.jpeg)
+![Switches A3](images/switches_alt3.jpeg)
+![Switches A4](images/switches_alt4.jpeg)
 
 ### Step 4: Install the RJ45 sockets
 
