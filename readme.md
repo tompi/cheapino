@@ -28,6 +28,12 @@ https://www.reddit.com/r/ErgoMechKeyboards/comments/12xg4u7/built_the_cheapino/
 https://www.reddit.com/r/ErgoMechKeyboards/comments/13c274r/cheapino_build/
 ![Cheapino by Palbi](otherbuild2.jpeg)
 
+https://discuss.tchncs.de/post/410101
+![Cheapino by PixelPrimer](otherbuild3.jpeg)
+
+https://discuss.tchncs.de/post/852362
+![Cheapino by Chraccoon](otherbuild4.jpeg)
+
 
 Drawbacks:
 
