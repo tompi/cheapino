@@ -14,6 +14,11 @@ support 18 switches and an encoder on the right side).
 
 Checkout the [build guide](doc/buildguide_v1.md) for more details and pictures.
 
+If you just want to flash [Miryoku](https://github.com/manna-harbour/miryoku) 
+on your Cheapino, download the [uf2 file from the release section](https://github.com/tompi/cheapino/releases/download/v1.0/cheapino_manna-harbour_miryoku.uf2), 
+put the rp2040-zero in dfu mode by holding boot while pressing reset, then return,
+then you should get a new usb drive which you can just copy the uf2 file to.
+
 A qmk branch with support is located here: 
 https://github.com/tompi/qmk_firmware/tree/cheapino
 
@@ -34,8 +39,8 @@ https://discuss.tchncs.de/post/410101
 https://discuss.tchncs.de/post/852362
 ![Cheapino by Chraccoon](otherbuild4.jpeg)
 
-![Cheapino by Hansamann](otherbuild5.jpeg)
 https://lemmy.world/post/2080485
+![Cheapino by Hansamann](otherbuild5.jpeg)
 
 Drawbacks:
 
