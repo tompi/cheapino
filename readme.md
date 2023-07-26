@@ -20,7 +20,7 @@ https://github.com/tompi/qmk_firmware/tree/cheapino
 If you are wondering if this is actually usable, Im writing this on it, and Im pretty happy with it. 
 My son is also using his at his work and claims its very usable.
 
-I know at least two other persons that built it:
+These are a few other people that built it:
 
 https://www.reddit.com/r/ErgoMechKeyboards/comments/12xg4u7/built_the_cheapino/
 ![Cheapino by TentacleSenpai69](otherbuild.jpeg)
@@ -34,6 +34,8 @@ https://discuss.tchncs.de/post/410101
 https://discuss.tchncs.de/post/852362
 ![Cheapino by Chraccoon](otherbuild4.jpeg)
 
+![Cheapino by Hansamann](otherbuild4.jpeg)
+https://lemmy.world/post/2080485
 
 Drawbacks:
 
