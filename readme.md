@@ -34,7 +34,7 @@ https://discuss.tchncs.de/post/410101
 https://discuss.tchncs.de/post/852362
 ![Cheapino by Chraccoon](otherbuild4.jpeg)
 
-![Cheapino by Hansamann](otherbuild4.jpeg)
+![Cheapino by Hansamann](otherbuild5.jpeg)
 https://lemmy.world/post/2080485
 
 Drawbacks:
