@@ -44,7 +44,7 @@ https://lemmy.world/post/2080485
 
 https://lemmy.world/post/2480447
 ![Case by Chraccoon](case.jpeg)
-Printable file here: https://www.printables.com/model/541536-cheapino-case-with-basic-tenting
+Printable file  for the case here: https://www.printables.com/model/541536-cheapino-case-with-basic-tenting
 
 Drawbacks:
 
