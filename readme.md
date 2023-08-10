@@ -45,6 +45,10 @@ https://lemmy.world/post/2080485
 https://lemmy.world/post/2832967
 ![Cheapino by createkarma](otherbuild6.jpeg)
 
+https://lemmy.world/post/2480447
+![Case by Chraccoon](case.jpeg)
+Printable file  for the case here: https://www.printables.com/model/541536-cheapino-case-with-basic-tenting
+
 Drawbacks:
 
 * Without a plate, its pretty difficult to solder swithes straight. I made a small helper "fork" to hold each column in place when soldering.
