@@ -94,7 +94,13 @@ One trick from [TentacleSenpai69](https://www.reddit.com/user/TentacleSenpai69/)
 
 ### Step 4: Install the RJ45 sockets
 
-Just align them to the white outline. They should stay in place by themselves when you flip the PCB.
+Some connectors might short the casing to the outer unused pin.
+It might be a good idea to place a tiny piece of tape on top
+of the pin hole that is directly on the footprint outline of the connector you are installing, or at the housing itself where it touches this.
+
+![RJ45 possible short](images/shorted_rj45.jpeg)
+
+Just align them to the white outline. They should stay in place by themselves when you flip the PCB to solder them.
 
 ### Step 5: Install the encoder
 

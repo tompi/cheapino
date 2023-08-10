@@ -42,6 +42,9 @@ https://discuss.tchncs.de/post/852362
 https://lemmy.world/post/2080485
 ![Cheapino by Hansamann](otherbuild5.jpeg)
 
+https://lemmy.world/post/2832967
+![Cheapino by createkarma](otherbuild6.jpeg)
+
 Drawbacks:
 
 * Without a plate, its pretty difficult to solder swithes straight. I made a small helper "fork" to hold each column in place when soldering.
