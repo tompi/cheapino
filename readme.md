@@ -45,9 +45,13 @@ https://lemmy.world/post/2080485
 https://lemmy.world/post/2832967
 ![Cheapino by createkarma](otherbuild6.jpeg)
 
+![Cheapino by ??](otherbuild7.jpeg)
+
 https://lemmy.world/post/2480447
 ![Case by Chraccoon](case.jpeg)
 Printable file  for the case here: https://www.printables.com/model/541536-cheapino-case-with-basic-tenting
+
+@keyboard-magpie made a plate which will help position the switches: [plate.stl](plate.stl)
 
 Drawbacks:
 
