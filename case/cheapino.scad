@@ -1,14 +1,27 @@
-$fn=10;
+height = 95.1738;
+width = 132.6134;
+$fn=100;
 
-# minkowski()
-# {
-translate([0,0,15]) base();
-base();
-# }
+translate([0,0,7]) base_line();
+
+
+module base_line()
+{
+  difference()
+  {
+    base_extended(1.05, 1);
+    base_extended(1, 2);
+  }
+}
+
+module base_extended(factor, extrusion)
+{
+  linear_extrude(extrusion)
+    scale([factor, factor, 1])
+      base();
+}
 
 module base()
 {
-  linear_extrude(1.6)
-    scale([1.05, 1.05, 1])
-      import("base.svg", center=true);
+  import("base.svg", center=false);
 }
