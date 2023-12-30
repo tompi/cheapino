@@ -27,6 +27,8 @@ My son is also using his at his work and claims its very usable.
 
 These are a few other people that built it:
 
+![Cheapino by finex](otherbuild8.jpeg)
+
 https://www.reddit.com/r/ErgoMechKeyboards/comments/12xg4u7/built_the_cheapino/
 ![Cheapino by TentacleSenpai69](otherbuild.jpeg)
 
