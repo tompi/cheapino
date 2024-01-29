@@ -60,6 +60,9 @@ https://lemmy.world/post/2480447
 ![Case by Chraccoon](case.jpeg)
 Printable file  for the case here: https://www.printables.com/model/541536-cheapino-case-with-basic-tenting
 
+Probably the cheapest tenting solution: https://www.reddit.com/r/ErgoMechKeyboards/comments/16s3yb2/cheapino/
+![Cheapino by @JordanNiphan](otherbuild11.jpeg)
+
 @keyboard-magpie made a plate which will help position the switches: [plate.stl](plate.stl)
 
 @ggppjj made some useful modifications to miryoku and enabled LED for that as well here: https://github.com/ggppjj/qmk_firmware/releases
