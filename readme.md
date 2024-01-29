@@ -49,11 +49,20 @@ https://lemmy.world/post/2832967
 
 ![Cheapino by ??](otherbuild7.jpeg)
 
+https://www.reddit.com/r/ErgoMechKeyboards/comments/18i5jpu/first_build_cheapino/
+![Cheapino by lydomixian](otherbuild9.jpeg)
+
+https://www.reddit.com/r/ErgoMechKeyboards/comments/18zb3l1/first_build_finally_cheapino/
+![Cheapino by u/Tech-Buffoon](otherbuild10.jpeg)
+
+
 https://lemmy.world/post/2480447
 ![Case by Chraccoon](case.jpeg)
 Printable file  for the case here: https://www.printables.com/model/541536-cheapino-case-with-basic-tenting
 
 @keyboard-magpie made a plate which will help position the switches: [plate.stl](plate.stl)
+
+@ggppjj made some useful modifications to miryoku and enabled LED for that as well here: https://github.com/ggppjj/qmk_firmware/releases
 
 Drawbacks:
 
