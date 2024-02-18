@@ -116,7 +116,7 @@ Use the cutters to trim any extruding wires on the underside of the PCBs. Maybe 
 
 Congratulations, you have successfully built your own custom keyboard.
 
-See the [firmwar guide](firmware.md)
+See the [firmware guide](firmware.md) for how to build and customize keyboard firmware.
 
 Send me a mail or issue if something doesnt work as expected!
 

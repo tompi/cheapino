@@ -14,6 +14,8 @@ support 18 switches and an encoder on the right side).
 
 Checkout the [build guide](doc/buildguide_v1.md) for more details and pictures.
 
+See the [firmware guide](doc/firmware.md) for how to build and customize keyboard firmware.
+
 If you just want to flash [Miryoku](https://github.com/manna-harbour/miryoku) 
 on your Cheapino, download the [uf2 file from the release section](https://github.com/tompi/cheapino/releases/download/v1.0/cheapino_manna-harbour_miryoku.uf2), 
 put the rp2040-zero in dfu mode by holding boot while pressing reset, then return,
