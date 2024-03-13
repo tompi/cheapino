@@ -27,7 +27,7 @@ This can easily be the most expensive
 | RJ45 Socket |  4 | [AliExpress](https://www.aliexpress.com/item/32902228456.html) | 5.00 (for 10 pcs)|
 | EC11 Rotary encoder |  2 | [AliExpress](https://www.aliexpress.com/item/10000000931574.html) | 5.00 (for 2 pcs) |
 | Encoder knob |  2 | [AliExpress](https://www.aliexpress.com/item/32749281108.html) | 5.00 (for 2 pcs)|
-| Diodes 1N4148 | 72 | [AliExpress](https://www.aliexpress.com/item/32660088529.html) | 2.00 (for 100 pcs) |
+| Diodes 1N4148 | 80 | [AliExpress](https://www.aliexpress.com/item/32660088529.html) | 2.00 (for 100 pcs) |
 
 ![Components](images/parts.jpeg)
 
