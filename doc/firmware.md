@@ -7,9 +7,9 @@ This is the recipe for windows(for mac/linux, install qmk the recommended way an
 
 1. Install qmk msys from https://msys.qmk.fm/
 2. Inside qmk msys, type qmk setup - this will create a qmk_firmware folder that has cloned the main branch of qmk from git.
-3. Run this command to add a reference to the cheapino qmk fork:
+3. Run this command(make sure you are in the "qmk_firmware"folder) to add a reference to the cheapino qmk fork:
 ```sh
-git remote add tompi https://github.com/tompi/qmk_firmware..
+git remote add tompi https://github.com/tompi/qmk_firmware
 ```
 4. Run this command to actually fetch the code(replace "cheapino" with "cheapinov2" if you are using cheapino v2 pcbs):
 ```sh
