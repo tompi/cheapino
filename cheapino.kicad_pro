@@ -482,7 +482,7 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "cheapino.emn",
       "netlist": "",
       "plot": "",
       "pos_files": "",
