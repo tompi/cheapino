@@ -14,6 +14,8 @@ support 18 switches and an encoder on the right side).
 
 Checkout the [build guide](doc/buildguide_v1.md) for more details and pictures.
 
+Checkout the [troubleshooting guide](doc/troubleshooting.md) if your Cheapino does not work.
+
 See the [firmware guide](doc/firmware.md) for how to build and customize keyboard firmware.
 
 If you just want to flash [Miryoku](https://github.com/manna-harbour/miryoku) 
