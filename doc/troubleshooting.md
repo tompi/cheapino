@@ -35,5 +35,5 @@ This will happen with some cheap encoders, they may not de-tent properly, and ge
 ## I Ordered a beta of the version 2 and the 2 middle columns on each side are not working
 
 This is my fault... You need to run a bodge wire between 2 points on each half:
-![Missing connection on v2 beta](images/bodge.jpeg) 
-![Fixed on both sides](images/bodge2.jpeg) 
+![Missing connection on v2 beta](images/bodge.png) 
+![Fixed on both sides](images/bodge2.png) 
