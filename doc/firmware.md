@@ -42,8 +42,17 @@ qmk flash -kb cheapino -km thebestkeymap
 
 To help learn your keymap, @omark96 made this tool that works on windows: https://github.com/omark96/qmk_keymap_overlay
 
-Tweaking the encoder actions needs to be done in the keyboards/cheapino/encoder.c file.
+# Encoder customization
+
+Tweaking the encoder actions needs to be done in the keyboards/cheapino/encoder.c file, they are not part of the keymap.
 (you dont HAVE to be a progammer to change it, but you may call yourself a novice programmer once you do...)
+In the method called "turned", there are actions defined for multiple layers, this one is tweaked for my personal layer...
+The "else" section at line 26, will send page down for clockwise encoder turns, and page down for counter clockwise.
+The first if, line 20, sends volume up/down if you are on layer 6. 
+
+The encoder push is defined to media pause/play in the "clicked" method on line 15.
+Feel free to remap it to different keys depending on layers, like the turns are done.
+TBH, I dont really use the encoder much, so I didnt spend much time tweaking this...
 
 Once you change the encoder file, run the command from step 6 and 7 to deploy changes to your keyboard.
 
