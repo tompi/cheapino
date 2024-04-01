@@ -87,6 +87,9 @@ Try to solder one column at a time, use something to align the switches, and tap
 
 One trick from [TentacleSenpai69](https://www.reddit.com/user/TentacleSenpai69/) is to put on keycaps on a column and use a space bar to keep the column aligned, and then tape it.
 
+If you have a 3D printer you could print these excellent fork-helpers from @MrBarbie: https://www.printables.com/model/582030-switch-alignment-rail
+Make sure you print the 19mm version, since the cheapino uses 19.00 mm spacing instead of the traditional 19.05 mm spacing...
+
 ![Switches A1](images/switches_alt1.jpg)
 ![Switches A2](images/switches_alt2.jpg)
 ![Switches A3](images/switches_alt3.jpg)
