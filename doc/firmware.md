@@ -7,9 +7,9 @@ This is the recipe for windows(for mac/linux, install qmk the recommended way an
 
 1. Install qmk msys from https://msys.qmk.fm/
 2. Inside qmk msys, type qmk setup - this will create a qmk_firmware folder that has cloned the main branch of qmk from git.
-3. Run this command to add a reference to the cheapino qmk fork:
+3. Run this command(make sure you are in the "qmk_firmware"folder) to add a reference to the cheapino qmk fork:
 ```sh
-git remote add tompi https://github.com/tompi/qmk_firmware..
+git remote add tompi https://github.com/tompi/qmk_firmware
 ```
 4. Run this command to actually fetch the code(replace "cheapino" with "cheapinov2" if you are using cheapino v2 pcbs):
 ```sh
@@ -42,8 +42,17 @@ qmk flash -kb cheapino -km thebestkeymap
 
 To help learn your keymap, @omark96 made this tool that works on windows: https://github.com/omark96/qmk_keymap_overlay
 
-Tweaking the encoder actions needs to be done in the keyboards/cheapino/encoder.c file.
+# Encoder customization
+
+Tweaking the encoder actions needs to be done in the keyboards/cheapino/encoder.c file, they are not part of the keymap.
 (you dont HAVE to be a progammer to change it, but you may call yourself a novice programmer once you do...)
+In the method called "turned", there are actions defined for multiple layers, this one is tweaked for my personal layer...
+The "else" section at line 26, will send page down for clockwise encoder turns, and page down for counter clockwise.
+The first if, line 20, sends volume up/down if you are on layer 6. 
+
+The encoder push is defined to media pause/play in the "clicked" method on line 15.
+Feel free to remap it to different keys depending on layers, like the turns are done.
+TBH, I dont really use the encoder much, so I didnt spend much time tweaking this...
 
 Once you change the encoder file, run the command from step 6 and 7 to deploy changes to your keyboard.
 

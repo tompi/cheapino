@@ -27,7 +27,7 @@ This can easily be the most expensive
 | RJ45 Socket |  4 | [AliExpress](https://www.aliexpress.com/item/32902228456.html) | 5.00 (for 10 pcs)|
 | EC11 Rotary encoder |  2 | [AliExpress](https://www.aliexpress.com/item/10000000931574.html) | 5.00 (for 2 pcs) |
 | Encoder knob |  2 | [AliExpress](https://www.aliexpress.com/item/32749281108.html) | 5.00 (for 2 pcs)|
-| Diodes 1N4148 | 72 | [AliExpress](https://www.aliexpress.com/item/32660088529.html) | 2.00 (for 100 pcs) |
+| Diodes 1N4148 | 80 | [AliExpress](https://www.aliexpress.com/item/32660088529.html) | 2.00 (for 100 pcs) |
 
 ![Components](images/parts.jpeg)
 
@@ -86,6 +86,9 @@ Try to solder one column at a time, use something to align the switches, and tap
 ![Switches](images/switches.jpeg)
 
 One trick from [TentacleSenpai69](https://www.reddit.com/user/TentacleSenpai69/) is to put on keycaps on a column and use a space bar to keep the column aligned, and then tape it.
+
+If you have a 3D printer you could print these excellent fork-helpers from @MrBarbie: https://www.printables.com/model/582030-switch-alignment-rail
+Make sure you print the 19mm version, since the cheapino uses 19.00 mm spacing instead of the traditional 19.05 mm spacing...
 
 ![Switches A1](images/switches_alt1.jpg)
 ![Switches A2](images/switches_alt2.jpg)
