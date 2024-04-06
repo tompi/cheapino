@@ -116,20 +116,7 @@ Use the cutters to trim any extruding wires on the underside of the PCBs. Maybe 
 
 Congratulations, you have successfully built your own custom keyboard.
 
-Now you only need to install the firmware and tweak your keymap.
-Clone this qmk branch: https://github.com/tompi/qmk_firmware/tree/cheapino
-
-Open a shell in the folder and get git submodules with
-make git-submodules
-
-Then flash the cheapino with
-make cheapino:default:flash
-
-To tweak the keymap, copy one of the keymaps from keyboards/cheapino/keymaps,
-edit it in the [qmk online configurator](https://config.qmk.fm/), and flash it with
-make cheapino:yourkeymap:flash
-
-Tweaking the encoder actions needs to be done in the keyboards/cheapino/encoder.c file.
+See the [firmware guide](firmware.md) for how to build and customize keyboard firmware.
 
 Send me a mail or issue if something doesnt work as expected!
 
