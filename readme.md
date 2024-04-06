@@ -3,6 +3,9 @@ Cheapino
 
 Probably one of the cheapest split keyboards you can build.
 
+N.B.: Version 2 is out(check releases), but have not updated photos
+or build guides. I recommend you build v2 instead of v1.
+
 ![Cheapino with Iceberg keycaps](images/cheapino.jpg "Cheapino")
 
 This is the result of really enjoying building keyboards, 
@@ -73,7 +76,7 @@ Probably the cheapest tenting solution: https://www.reddit.com/r/ErgoMechKeyboar
 
 Drawbacks:
 
-* Without a plate, its pretty difficult to solder swithes straight. I made a small helper "fork" to hold each column in place when soldering.
+* Without a plate, its pretty difficult to solder swithes straight. I made a small helper "fork" to hold each column in place when soldering. Check the build guide for a link to a really good 3D printed fork.
 * RJ45 cables are a bit rigid, so they do not lay down on the table nicely like audio cables.
 * There is no official qmk support, you need to compile from my branch manually... Keymap can be edited in qmk configurator though.
 
