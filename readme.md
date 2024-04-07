@@ -20,6 +20,7 @@ Checkout the [build guide](doc/buildguide_v1.md) for more details and pictures.
 Checkout the [troubleshooting guide](doc/troubleshooting.md) if your Cheapino does not work.
 
 See the [firmware guide](doc/firmware.md) for how to build and customize keyboard firmware.
+News: both v1 and v2 supports vial, checkout the cheapino_vial.uf2 in the releases.
 
 If you just want to flash [Miryoku](https://github.com/manna-harbour/miryoku) 
 on your Cheapino, download the [uf2 file from the release section](https://github.com/tompi/cheapino/releases/download/v1.0/cheapino_manna-harbour_miryoku.uf2), 

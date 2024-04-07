@@ -1,5 +1,20 @@
+Configuring using vial
+======================
+
+This is the easiest way of setting up your keyboard:
+
+1. Download cheapino_vial.uf2 file for your release(1 or 2)
+2. Put your rp2040-zero in dfu mode by holding boot button while you plug in usb c
+3. Drag and drop uf2 file to the usb drive that popped up after 2.
+4. Download vial from here: https://get.vial.today/download/
+5. Open it and start customizing
+
+For now, you will not be able to customize encoder with this.(working on it...)
+
 Setting up and compiling qmk
 ============================
+
+For most flexibility, you want to compile the qmk firmware yourself.
 
 Unfortunately, the cheapino firmware is not merged into the official qmk repository,
 so there are a few extra steps to setting up qmk for compiling cheapino.
