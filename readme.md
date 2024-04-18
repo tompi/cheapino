@@ -3,8 +3,7 @@ Cheapino
 
 Probably one of the cheapest split keyboards you can build.
 
-N.B.: Version 2 is out(check releases), but have not updated photos
-or build guides. I recommend you build v2 instead of v1.
+N.B.: Version 2 is out(check releases). I recommend you build v2 instead of v1.
 
 ![Cheapino with Iceberg keycaps](images/cheapino.jpg "Cheapino")
 
@@ -15,7 +14,10 @@ and utilizes a japanese duplex matrix, so only one
 mcu is needed(in fact it only uses 7 of the rj45 wires to 
 support 18 switches and an encoder on the right side).
 
-Checkout the [build guide](doc/buildguide_v1.md) for more details and pictures.
+See the [ordering guide](doc/orderingguide.md) for what you need and how to order.
+
+See the [build guide v2](doc/buildguide_v2.md) for more details and pictures of how to actually build it.
+(Obsolete: [build guide v1](doc/buildguide_v1.md))
 
 Checkout the [troubleshooting guide](doc/troubleshooting.md) if your Cheapino does not work.
 
