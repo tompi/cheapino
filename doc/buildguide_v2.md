@@ -9,6 +9,9 @@ to try their hand at building their own keyboard.
 
 I assume you read the [ordering guide](orderingguide.md) and have all the mandatory parts and tools.
 
+![V2 by soul_wish](images/buildguidev2/v2.png)
+V2 build by soul_wish: https://www.reddit.com/r/ErgoMechKeyboards/comments/1c5njbj/my_first_build_cheapino_v2/
+
 ## Steps
 
 In my experience it is easiest to solder the lowest components first, and the highest last, since you need to turn the PCB around with the components on the other side when soldering(and then you want the loose ones to rest directly at the desk). Thats why I suggest starting with the diodes, then the MCU, the switches, the RJ45 socket and lastly the encoder.
@@ -17,11 +20,11 @@ In my experience it is easiest to solder the lowest components first, and the hi
 
 You need to be careful to solder the diodes the correct way. The line on the diode should always be closest to the square pad of the footprint, NOT the round one. The PCB supports SMD and throug hole diodes, and you can choose which side you want to mount them. I suggest mounting them on the top side, to keep height of board as low as possible. 
 
-[Diodes](images/buildguidev2/diodes.png)
+![Diodes](images/buildguidev2/diodes.png)
 
 If you use through hole diodes and have sockets for the MCU, keep the legs you cut off and use them for socketing the MCU.
 
-[Diode legs](images/buildguidev2/diodes_legs.png)
+![Diode legs](images/buildguidev2/diodes_legs.png)
 
 
 ### Step 2: MCU
@@ -60,9 +63,9 @@ Pop them all in, turn the PCB around and solder them.
 I solder 1 pin from each switch on a row, and then do the other pin for the entire row, to
 minimize risk of overheating switch and melting the plastic.
 
-![Switches front](images/buildguide2/switches1.png)
+![Switches front](images/buildguidev2/switches1.png)
 
-![Switches back](images/buildguide2/switches2.png)
+![Switches back](images/buildguidev2/switches2.png)
 
 
 ### Step 4: Install the RJ45 sockets
@@ -73,7 +76,7 @@ Just align them to the white outline. They should stay in place by themselves wh
 
 Put the encoder in the footprint on the right side, make sure its flush to the PCB when you solder it.
 
-![Finished](finished.png)
+![Finished](images/buildguidev2/finished.png)
 
 ### Step 6: Trim below and install bumpers
 

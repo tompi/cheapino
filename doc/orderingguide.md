@@ -35,7 +35,7 @@ to choose the cheapest option...).
 
 ### The components
 
-![Components](images/orderingguide/jlcpcb.png)
+![Components](images/orderingguide/components.png)
 
 You need switches, keycaps, rj45 sockets, diodes and an rp2040-zero mcu.
 The encoder and mcu sockets are optional(to be honest, I dont use the encoder
@@ -54,44 +54,31 @@ extra taxes and a clearance fee, and it took way longer to ship.
 
 These are the items I usually order:
 
-| Part                | Quantity for 1 keyboard | Quantity in sold package | Price (USD)  | Url |
-| --------------------|-------------------------|--------------------------|--------------|-----|
-| RP2040-Zero[^1]     |                        1|                         1|         1.78 | https://www.aliexpress.com/item/1005004281549886.html |
-| RJ45 Sockets (8P8C) |                        2|                        10|         2.37 | https://www.aliexpress.com/item/32902228456.html |
-| Diodes 1N4148[^2]   |                       42|                       100|         1.02 | https://www.aliexpress.com/item/32660088529.html |
-| EC11 Encoder        |                        1|                         5|         2.68 | https://www.aliexpress.com/item/1005004907970664.html |
-| Encoder knob[^3]    |                        1|                         5|         1.35 | https://www.aliexpress.com/item/1005004907970664.html |
-|---------------------|-------------------------|--------------------------|--------------|-------------------------------------------------------|
-
-[^1]: Choose the version without header, and buy some sockets, its worth it!
-[^2]: You can also ordes smb if you want. Smaller but more difficult to solder: https://www.aliexpress.com/item/4000685043735.html
-[^3]: A much better looking(and more expensive) knob: https://www.aliexpress.com/item/32749281108.html
+| Part                | Quantity for 1 keyboard | Quantity in sold package | Notes        |Price (USD)  | Url |
+| --------------------|------------------------:|-------------------------:|--------------|----:|-----|
+| RP2040-Zero     |                        1|                         1|Choose the version without header, and buy some sockets, its worth it!     |1.78 | https://www.aliexpress.com/item/1005004281549886.html |
+| RJ45 Sockets (8P8C) |                        2|                        10||2.37 | https://www.aliexpress.com/item/32902228456.html |
+| Diodes 1N4148   |                       42|                       100|You can also ordes smb if you want. Smaller but more difficult to solder: https://www.aliexpress.com/item/4000685043735.html              |1.02 | https://www.aliexpress.com/item/32660088529.html |
+| EC11 Encoder        |                        1|                         5|              |2.68 | https://www.aliexpress.com/item/1005004907970664.html |
+| Encoder knob    |                        1|                         5| A much better looking(and more expensive) knob: https://www.aliexpress.com/item/32749281108.html              |1.35 | https://www.aliexpress.com/item/1005004907970664.html |
 
 As you can see, it really makes sense to just order 2 mcu's at once, to be able to build 2 keyboards.
 
 These are the items I really recommend in addition:
 
-| Part                | Quantity for 1 keyboard | Quantity in sold package | Price (USD)  | Url |
-| --------------------|-------------------------|--------------------------|--------------|-----|
-| Sockets for MCU[^1] |                        1|                         5|         2.01 | https://www.aliexpress.com/item/4001122376295.html |
-| Silicone bumpers[^2]|                      ~20|                       100|         1.55 | https://www.aliexpress.com/item/1005002619943801.html |
-|---------------------|-------------------------|--------------------------|--------------|-------------------------------------------------------|
-
-[^1]: Choose the single row silver plated(cheapest...). These are lower profile, and easier to solder straight, but more expensive: https://www.aliexpress.com/item/1005006248653180.html (9P PH3.5 Female Header). Socketing is a long term choice: you can reuse mcu for another build, or more importantly replace it easily if it breaks.
-[^2]: 5 mm wide and 2 mm high is fine. If you know you will only use the keyboard on a mat or with a case, you might not need this, otherwise you want them.
+| Part                | Quantity for 1 keyboard | Quantity in sold package | Notes |Price (USD)  | Url |
+| --------------------|------------------------:|-------------------------:|------|-------:|-----|
+| Sockets for MCU |                        1|                         5|   Choose the single row silver plated(cheapest...). These are lower profile, and easier to solder straight, but more expensive: https://www.    aliexpress.com/item/1005006248653180.html (9P PH3.5 Female Header). Socketing is a long term choice: you can reuse mcu for another build, or more   importantly replace it easily if it breaks.   |   2.01 | https://www.aliexpress.com/item/4001122376295.html |
+| Silicone bumpers|                      ~20|                       100| 5 mm wide and 2 mm high is fine. If you know you will only use the keyboard on a mat or with a case, you might not need this, otherwise you   want them.     |   1.55 | https://www.aliexpress.com/item/1005002619943801.html |
 
 These are some nifty items I really like, but not necessary:
 
-| Part                    | Quantity for 1 keyboard | Quantity in sold package | Price (USD)  | Url |
-| ------------------------|-------------------------|--------------------------|--------------|-----|
-| Flexible cat6 cable[^1] |                        1|                         1|         0.84 | https://www.aliexpress.com/item/1005002518783703.html |
-| Magnetic USB cable[^2]  |                        1|                         1|         2.22 | https://www.aliexpress.com/item/1005003776565766.html |
-| Carrying case[^3]       |                        1|                         1|         2.12 | https://www.aliexpress.com/item/1005006381237074.html |
-|-------------------------|-------------------------|--------------------------|--------------|----|
+| Part                    | Quantity for 1 keyboard | Quantity in sold package | Notes |Price (USD)  | Url |
+| ------------------------|------------------------:|-------------------------:|-------|------:|-----|
+| Flexible cat6 cable |                        1|                         1|    0.5m is perfect in my experience. Regular network cables are often very long and rigid.     |0.84 | https://www.aliexpress.com/item/1005002518783703.html |
+| Magnetic USB cable  |                        1|                         1| You can buy any brand, but make sure its not charging only, check the picture for 4+ contact points. I use these for all my boards, the usb   port of the mcu is the first thing that will wear out if you dont use this. Make sure you get both cable+plug, and chose the usb c type.        |2.22 | https://www.aliexpress.com/item/1005003776565766.html |
+| Carrying case       |                        1|                         1| This case fits pretty snugly: 15x11x4,5cm. Nice to have if you are travelling!        |2.12 | https://www.aliexpress.com/item/1005006381237074.html |
 
-[^1]: 0.5m is perfect in my experience. Regular network cables are often very long and rigid.
-[^2]: You can buy any brand, but make sure its not charging only, check the picture for 4+ contact points. I use these for all my boards, the usb port of the mcu is the first thing that will wear out if you dont use this. Make sure you get both cable+plug, and chose the usb c type.
-[^3]: This case fits pretty snugly: 15x11x4,5cm. Nice to have if you are travelling! 
 
 ## Switches
 
@@ -123,7 +110,7 @@ Why not go all in an order a clear keyset, you will need to touch type anyway, s
 labels. You will blow your colleagues minds with this set: https://www.aliexpress.com/item/1005004761931363.html
 I got the transparent one, and there was enough keys for 3 complete keyboards.
 
-![Crystal Clear keycaps](keycaps.png)
+![Crystal Clear keycaps](images/orderingguide/keycaps.png)
 This is a v2 prototype with milky yellow switches that im testing wireless with.
 
 ## Tools
