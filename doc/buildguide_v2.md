@@ -26,8 +26,24 @@ If you use through hole diodes and have sockets for the MCU, keep the legs you c
 
 ![Diode legs](images/buildguidev2/diodes_legs.png)
 
+### Step 2: Bridge solder pads on right side
 
-### Step 2: MCU
+This step is only for the right side of the keyboard.
+You need to bridge the 7 solder pads. If you forget this, the right side will not register keypresses.
+
+This is an improvement over v1, in that no columns or rows are shared between sides, getting rid of ghosting issues.
+
+Bridging can be a bit tricky with a pointed soldering tip, its best to use a flat one.
+Both will work though, just make sure you dont spend too much time heating up the pads.
+If you fail to bridge, take a break and let them cool down, and apply some flux before retrying.
+
+If you apply too much heat too long, you might lift the pads, and then you will need to bodge wire stuff...
+
+In the picture I bridged 4 of the 7:
+
+![Bridging pads](images/buildguidev2/bridge.png)
+
+### Step 3: MCU
 
 Only the pins on the 2 long sides are actually used, but if you have the RP2040-Zero with pre-soldered pin headers, there is room for that also. Choose one of the following steps:
 
@@ -46,7 +62,7 @@ Stick the clipped diode feet through the MCU, and down into the socket. Use a to
 Solder all the feet in place, and remove all 3 parts from the breadboard, and put them into the PCB, use some tape to hold it in place when you turn it around and solder it.
 
 ![Socketing 3](images/socket3.jpeg)
-(I know I know, the image is of the v1 PCB, but MCU install is exactly the same...)
+The image is of the v1 PCB, but MCU install is exactly the same for both versions...
 
 #### Use pinheader to mount MCU
 
@@ -54,7 +70,7 @@ Use the two longest yellow pin headers that come with the MCU: solder them to th
 
 ![MCU pin header](images/mcu_pinheader.jpeg)
 
-### Step 3: Install the Switches
+### Step 4: Install the Switches
 
 Next, it's time to install the switches. 
 If you only have 3 pin switches, refer to hints in the v1 build guide on how to align them.
@@ -68,17 +84,17 @@ minimize risk of overheating switch and melting the plastic.
 ![Switches back](images/buildguidev2/switches2.png)
 
 
-### Step 4: Install the RJ45 sockets
+### Step 5: Install the RJ45 sockets
 
 Just align them to the white outline. They should stay in place by themselves when you flip the PCB to solder them.
 
-### Step 5: Install the encoder
+### Step 6: Install the encoder
 
 Put the encoder in the footprint on the right side, make sure its flush to the PCB when you solder it.
 
 ![Finished](images/buildguidev2/finished.png)
 
-### Step 6: Trim below and install bumpers
+### Step 7: Trim below and install bumpers
 
 Use the cutters to trim any extruding wires on the underside of the PCBs. 
 I havent done this with anything else than the encoder pins which I found to
@@ -90,7 +106,7 @@ Install rubber bumpers to protect your desk and keep the keyboard from moving.
 The v2 outline is a bit smaller than the v1, so be generous with the bumpers,
 sprinkle them all around, or typing will be wobbly.
 
-### Step 7: Test that everything works.
+### Step 8: Test that everything works.
 
 There is a good chance you forgot to solder a diode or a switch leg...
 
