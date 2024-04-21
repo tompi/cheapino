@@ -5,9 +5,10 @@ Probably one of the cheapest split keyboards you can build.
 
 N.B.: Version 2 is out(check releases). I recommend you build v2 instead of v1.
 
-![V2 by soul_wish](images/buildguidev2/v2.png)
-V2 build by soul_wish: https://www.reddit.com/r/ErgoMechKeyboards/comments/1c5njbj/my_first_build_cheapino_v2/
+V2 build by soul_wish: https://www.reddit.com/r/ErgoMechKeyboards/comments/1c5njbj/my_first_build_cheapino_v2/ :
+![V2 by soul_wish](doc/images/buildguidev2/v2.png)
 
+V1 build:
 ![Cheapino with Iceberg keycaps](images/cheapino.jpg "Cheapino")
 
 This is the result of really enjoying building keyboards, 
