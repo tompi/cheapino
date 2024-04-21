@@ -9,7 +9,8 @@ This is the easiest way of setting up your keyboard:
 4. Download vial from here: https://get.vial.today/download/
 5. Open it and start customizing
 
-For now, you will not be able to customize encoder with this.(working on it...)
+All keys and encoder actions should be configurable in the Vial program while
+your keyboard is configured.
 
 Setting up and compiling qmk
 ============================

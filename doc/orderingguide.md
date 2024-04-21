@@ -17,7 +17,7 @@ From my research, nothing beats jlcpcb.com on price(pcbway.com is close, but not
 You will need to upload the "gerbers" on the frontpage of jlcpcb.
 
 * v1: https://github.com/tompi/cheapino/releases/download/v1.0/gerber.zip
-* v2: https://github.com/tompi/cheapino/releases/download/v2.0/cheapino_v2.zip
+* v2: https://github.com/tompi/cheapino/releases/download/v2.0/cheapino_v2_gerber.zip
 
 ![JLCPCB](images/orderingguide/jlcpcb.png)
 
