@@ -1,5 +1,13 @@
-Configuring using vial
-======================
+Firmware guide
+==============
+
+There are 2 main routes, either flash the vial firmware and use the vial desktop ui
+to configure the keyboard, or setup qmk for compiling locally.
+
+In either case, there are A LOT of options to tweak...
+Check out the links at the bottom for further reference.
+
+# Configuring using vial
 
 This is the easiest way of setting up your keyboard:
 
@@ -12,8 +20,9 @@ This is the easiest way of setting up your keyboard:
 All keys and encoder actions should be configurable in the Vial program while
 your keyboard is configured.
 
-Setting up and compiling qmk
-============================
+![Vial in action](images/firmware/vial.png)
+
+# Setting up and compiling qmk
 
 For most flexibility, you want to compile the qmk firmware yourself.
 
@@ -31,7 +40,7 @@ git remote add tompi https://github.com/tompi/qmk_firmware
 ```sh
 git fetch tompi cheapino
 ```
-5. Run this command to switch local files to the cheapino variant(again, replace "cheapino" with "chepinov2" if using v2 pcbs):
+5. Run this command to switch local files to the cheapino variant(again, replace "cheapino" with "cheapinov2" if using v2 pcbs):
 ```sh
 git checkout tompi/cheapino
 ```
@@ -56,9 +65,11 @@ qmk flash -kb cheapino -km thebestkeymap
 
 (and you guessed it, you can choose to call it something else than thebestkeymap)
 
+![QMK Configurator](images/firmware/qmk_configurator.png)
+
 To help learn your keymap, @omark96 made this tool that works on windows: https://github.com/omark96/qmk_keymap_overlay
 
-# Encoder customization
+## Encoder customization
 
 Tweaking the encoder actions needs to be done in the keyboards/cheapino/encoder.c file, they are not part of the keymap.
 (you dont HAVE to be a progammer to change it, but you may call yourself a novice programmer once you do...)
@@ -73,3 +84,12 @@ TBH, I dont really use the encoder much, so I didnt spend much time tweaking thi
 Once you change the encoder file, run the command from step 6 and 7 to deploy changes to your keyboard.
 
 Good luck!
+
+# References for keymaps and qmk tweaking
+
+* Miryoku is a very well thought out layout: https://github.com/manna-harbour/miryoku
+* @gtreuer has a lot of tricks up his sleeve: https://getreuer.info/posts/keyboards/tour/index.html
+* Some inspiration for making your own keymap: https://keymapdb.com/
+* Check out colemak-dh if you are curious about other layouts than qwerty: https://colemakmods.github.io/mod-dh/
+* For practicing, https://www.keybr.com/ and https://monkeytype.com/ are nice
+* If you are on reddit, you should join https://www.reddit.com/r/ErgoMechKeyboards/
