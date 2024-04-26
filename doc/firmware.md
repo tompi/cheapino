@@ -1,7 +1,7 @@
 Firmware guide
 ==============
 
-There are 2 main routes, either flash the vial firmware and use the vial desktop ui
+There are 2 main routes, either flash the vial firmware and use the vial web or desktop ui
 to configure the keyboard, or setup qmk for compiling locally.
 
 In either case, there are A LOT of options to tweak...
@@ -13,12 +13,15 @@ This is the easiest way of setting up your keyboard:
 
 1. Download cheapino_vial.uf2 file for your release(1 or 2)
 2. Put your rp2040-zero in dfu mode by holding boot button while you plug in usb c
-3. Drag and drop uf2 file to the usb drive that popped up after 2.
-4. Download vial from here: https://get.vial.today/download/
-5. Open it and start customizing
+3. The rp2040-zero should show up as a usb drive
+4. Drag and drop uf2 file to the usb drive that popped up after 2.
+5. The rp2040 will now reboot really fast, so you might get an error message, even though it went well
+6. Surf to https://vial.rocks/ and start configuring
+7. OR, if you want a local tool: ownload vial from here: https://get.vial.today/download/
 
 All keys and encoder actions should be configurable in the Vial program while
-your keyboard is configured.
+your keyboard is configured. There is also loads of parameters to tweak for optimal performance
+for your style...
 
 ![Vial in action](images/firmware/vial.png)
 
