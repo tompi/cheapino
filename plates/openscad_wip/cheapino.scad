@@ -2,45 +2,57 @@ height = 95.1738;
 width = 132.6134;
 $fn=30;
 
-height_translation = 10;
-for (i = [1:0.5:10])
+height_translation = 0;
+
+// Height of case is 5mm from pcb to switch inset,
+// plus 1.6mm pcb height, for a total of 6.6mm
+for (i = [0:0.05:2.5])
 {
-	height_translation = height_translation + 10;
-    translate([0,0,i])
-        base_extended (1 + (i*01), i);
+    translate([0,0,i]) //height_translation])
+        base_line_extruded(i, 0.1);
 }
 
-/*
-for (i = [11:0.5:20])
+translate([0,0,2.5]) //height_translation])
+  base_line_extruded(2.5, 1.6);
+
+for (i = [4.1b:0.05:6.6])
 {
-	height_translation = height_translation + 10;
-	translate(10,0,i)
-	 base_extended (1.2+ (i*-0.01), height_translation);
+    translate([0,0,i]) //height_translation])
+        base_line_extruded(6.6-i, 1);
 }
-*/
+
+
+module base_line_extruded (factor, extrusion)
+{
+    linear_extrude(extrusion)
+            base_line(factor);
+}
 
 module base_extended (factor, extrusion)
 {
     linear_extrude(extrusion)
-    //scale( [factor, factor, 11])
-        base();
+        offset( delta=factor)
+            base();
 }
 
 module base()
 {
-	import ("base.svg", center=false);
+	import ("base.svg", center=true);
 }
 
-/*
-module base_line()
+
+module base_line(expanded)
 {
   difference()
   {
-    base_extended(1.05, 1);
-    base_extended(1, 2);
+    offset( delta=expanded+1)
+            base();
+    offset( delta=expanded)
+            base();
   }
 }
 
+/*
 module base_extended(factor, extrusion)
 {
   linear_extrude(extrusion)
