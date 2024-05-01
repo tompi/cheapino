@@ -1,6 +1,6 @@
 height = 95.1738;
 width = 132.6134;
-$fn=30;
+$fn=60;
 
 height_translation = 0;
 
@@ -15,7 +15,7 @@ for (i = [0:0.05:2.5])
 translate([0,0,2.5]) //height_translation])
   base_line_extruded(2.5, 1.6);
 
-for (i = [4.1b:0.05:6.6])
+for (i = [4.1:0.05:6.6])
 {
     translate([0,0,i]) //height_translation])
         base_line_extruded(6.6-i, 1);
@@ -37,7 +37,7 @@ module base_extended (factor, extrusion)
 
 module base()
 {
-	import ("base.svg", center=true);
+	import ("plate.svg", center=true);
 }
 
 
@@ -52,16 +52,3 @@ module base_line(expanded)
   }
 }
 
-/*
-module base_extended(factor, extrusion)
-{
-  linear_extrude(extrusion)
-    offset([factor, factor, 1])
-      base();
-}
-
-module base()
-{
-  import("base.svg", center=false);
-}
-*/
