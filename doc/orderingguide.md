@@ -33,6 +33,8 @@ Take care when it comes to shipping, there is a lot of options, and price
 and time varies a lot(they always get there in the end though, so I tend
 to choose the cheapest option...).
 
+Please note that the PCB is reversible so you'll only get 5 of the same PCB in the package.
+
 ### The components
 
 ![Components](images/orderingguide/components.png)
