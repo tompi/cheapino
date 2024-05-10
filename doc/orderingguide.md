@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The parts list(BOM) is the same for both v1 and v2.
+The parts list(BOM) is the same for both v1 and v2, except for optional hotswap sockets for v2.
 You need to buy from at least 2 parties, the PCB needs
 to be custom made, the other parts can be ordered from any electronics supplier.
 
@@ -43,6 +43,11 @@ You need switches, keycaps, rj45 sockets, diodes and an rp2040-zero mcu.
 The encoder and mcu sockets are optional(to be honest, I dont use the encoder
 much, I know other people do, and it doesnt cost much extra).
 
+For a hotswap build(meaning you can replace switches without soldering),
+you need to order hotswap sockets, and you should probably use a plate, or a case,
+to keep swtiches from falling out accidentally. The old v1 plate will do, but 
+several people(including myself) are working on plates and cases. Stay tuned.
+
 Buying from AliExpress is a bit of an art in itself. You need to do your
 due diligence and check reviews and ratings of the store. If an item is priced
 significantly lower than other places, without many sales or reviews, you
@@ -72,6 +77,7 @@ These are the items I really recommend in addition:
 | --------------------|------------------------:|-------------------------:|------|-------:|-----|
 | Sockets for MCU |                        1|                         5|   Choose the single row silver plated(cheapest...). These are lower profile, and easier to solder straight, but more expensive: https://www.    aliexpress.com/item/1005006248653180.html (9P PH3.5 Female Header). Socketing is a long term choice: you can reuse mcu for another build, or more   importantly replace it easily if it breaks.   |   2.01 | https://www.aliexpress.com/item/4001122376295.html |
 | Silicone bumpers|                      ~20|                       100| 5 mm wide and 2 mm high is fine. If you know you will only use the keyboard on a mat or with a case, you might not need this, otherwise you   want them.     |   1.55 | https://www.aliexpress.com/item/1005002619943801.html |
+| Hotswap sockets |                       36|                        40| You want the mx one, NOT the low profile | 3.04 | https://www.aliexpress.com/item/1005006610157756.html |
 
 These are some nifty items I really like, but not necessary:
 
