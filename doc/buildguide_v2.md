@@ -16,7 +16,20 @@ V2 build by soul_wish: https://www.reddit.com/r/ErgoMechKeyboards/comments/1c5nj
 
 In my experience it is easiest to solder the lowest components first, and the highest last, since you need to turn the PCB around with the components on the other side when soldering(and then you want the loose ones to rest directly at the desk). Thats why I suggest starting with the diodes, then the MCU, the switches, the RJ45 socket and lastly the encoder.
 
-### Step 1: Diodes
+### Step 1: Hotswap sockets
+
+This step is optional, and only if you are building for hotswap.
+The sockets go on the bottom sides of of the PCB,
+Make sure you follow the PCB outline for the sockets(white lines),
+its very easy to solder them in the wrong direction(at least that
+is what I managed to do with more than half of them first time...)
+
+Just make sure to place them on the white outline, AND that 
+the big switch hole is unobstructed.
+
+![Hotswap](images/buildguidev2/hotswap.png)
+
+### Step 2: Diodes
 
 You need to be careful to solder the diodes the correct way. 
 The line on the diode should always be closest to the square pad of the footprint, 
@@ -31,13 +44,6 @@ keep the legs you cut off and use them for socketing the MCU.
 
 ![Diode legs](images/buildguidev2/diodes_legs.png)
 
-### Step 2: Hotswap sockets
-
-This step is optional, and only if you are building for hotswap.
-The sockets go on the bottom sides of of the PCB,
-Make sure you follow the PCB outline for the sockets(white lines),
-its very easy to solder them in the wrong direction(at least that
-is what I managed to do with more than half of them first time...)
 
 ### Step 3: Bridge solder pads on right side
 
