@@ -25,6 +25,8 @@ See the [build guide v2](doc/buildguide_v2.md) for more details and pictures of 
 
 Checkout the [troubleshooting guide](doc/troubleshooting.md) if your Cheapino does not work.
 
+Some info on the [plate/case solutions](doc/plates_and_cases.md) I know about.
+
 See the [firmware guide](doc/firmware.md) for how to build and customize keyboard firmware.
 News: both v1 and v2 supports vial, checkout the cheapino_vial.uf2 in the releases.
 
