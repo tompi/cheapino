@@ -80,8 +80,7 @@ Stick the clipped diode feet through the MCU, and down into the socket. Use a to
 
 Solder all the feet in place, and remove all 3 parts from the breadboard, and put them into the PCB, use some tape to hold it in place when you turn it around and solder it.
 
-![Socketing 3](images/socket3.jpeg)
-The image is of the v1 PCB, but MCU install is exactly the same for both versions...
+![Socketing 3](images/buildguidev2/socket3.jpeg)
 
 #### Use pinheader to mount MCU
 
