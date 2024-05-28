@@ -12,7 +12,6 @@ step = 0.05;
 
 $fn=50;
 
-
 mirror()
 {
     difference() {
@@ -21,8 +20,8 @@ mirror()
         // magsafe_ring();
          
         // The exported board from KiCad, for debug
-        translate([0,0,0])
-         board();
+        //translate([0,0,0])
+        // board();
 
         switches(true);
          

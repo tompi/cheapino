@@ -1,11 +1,15 @@
 //$fn=50;
+pcb_thickness = 1.6;
+bottom_plate_thickness = 2.5;
+top_of_pcb = bottom_plate_thickness + pcb_thickness;
+
 
 // bottom plate
 module bottom()
 {
 color("pink")
 translate([0,0,0])
-  linear_extrude(2.5)
+  linear_extrude(bottom_plate_thickness)
     offset( delta=0)  
        base();
 }      
@@ -18,8 +22,8 @@ module base()
 module board()
 {
     color("#1f77b4")
-    translate([0,0,-1])
-    linear_extrude(1)
+    translate([0,0,-1.6])
+    linear_extrude(1.6)
     rotate([0,180,0])
     import("cheapino-brd.svg", center=true);
 }
@@ -290,3 +294,120 @@ module mounting_holes() {
 //translate([0,0,0]) 
 // import("hotswap.stl");
  
+// Height of case is:
+//  5.0mm from pcb to switch inset
+//  1.6mm pcb height
+//  2.5mm bottom plate
+//
+//  for a total of 9.1mm.
+//
+// The case only adds 0.7mm extra height
+// to the keyboard.
+module case() {
+    color("red")
+    for (i = [0:step:9.1])
+    {
+        // factor = sqrt(pow(9.1, 2) - pow(i, 2));
+        factor = min(3 - abs(i*0.7-3), 2.5);
+        //echo(pow(i, 2));
+        //echo(factor);
+        translate([0,0,i]) //height_translation])
+            linear_extrude(height=1)
+                offset( delta=factor + 1 )
+                    base();
+            //base_extended(factor, 1);
+    }
+}
+
+module switch_holes() {
+    // Columns starting from mcu
+    hole_column(); 
+    translate([-19, 2.54, 0]) hole_column();      
+    translate([-38, 8.89, 0]) hole_column();         
+    translate([-57, 2.54, 0]) hole_column();         
+    translate([-76, -7.468, 0]) hole_column();   
+
+    // Thumb cluster
+    translate([-4.674, -59.69, 0]) switch_hole(); 
+    rotate(-10) translate([21, -54.45, 0]) switch_hole();   
+    rotate(-23) translate([46.25, -42.25, 0]) switch_hole(); 
+}
+         
+module hole_column() {
+switch_hole();
+translate([0, -19, 0]) switch_hole();         
+translate([0, -38, 0]) switch_hole();
+}
+
+module switch_hole() {     
+  translate([11.64, 23.45, 0]){
+    color("green") {
+        linear_extrude(10) {
+          square(14);
+          translate([0.2,0.2,0]) circle(d=1);
+          translate([13.8,0.2,0]) circle(d=1);
+          translate([13.8,13.8,0]) circle(d=1);
+          translate([0.2,13.8,0]) circle(d=1);
+        }
+      }
+      linear_extrude(3.5) {
+          translate([4.5, -1, 0])
+          color("yellow") square([5, 1]);
+          translate([4.5, 14, 0])
+          color("yellow") square([5, 1]);
+      }
+    }
+  }
+
+module base()
+{
+	import ("plate.svg", center=true);
+}
+
+
+module base_line(expanded)
+{
+  difference()
+  {
+    offset( delta=expanded+1)
+            base();
+    offset( delta=expanded)
+            base();
+  }
+}
+
+module mounting_hole_insert() {
+    color("#bcbd22")
+    translate([45.85, -23, 0]) {
+      translate([0,0,4.1])
+      cylinder(h=4, r=.7);
+    }
+}
+
+module mounting_hole_inserts() {
+    // Mounting holes
+    mounting_hole_insert();
+    translate([-27.432,4.572,0]) mounting_hole_insert();
+    translate([-18.288,44.704,0]) mounting_hole_insert();
+    translate([-36.132,25.02,0]) mounting_hole_insert();
+    translate([-56.183,52.928,0]) mounting_hole_insert();
+    translate([-75.399,46.599,0]) mounting_hole_insert();
+    translate([-94.267,36.473,0]) mounting_hole_insert();
+    translate([-94.241,17.313,0]) mounting_hole_insert();
+    translate([-3.048,-16.256,0]) mounting_hole_insert();
+}
+
+// MCU cutout
+module mcu_cutout() {
+    color("pink") {
+        translate([29.5, 10.2, 4.1])
+        linear_extrude(10)
+        square([19.5, 25]);
+
+        // USB C port opening
+        translate([34.25, 25.2, 4.1])
+        linear_extrude(10)
+        square([10, 20]);
+    }
+}
+
