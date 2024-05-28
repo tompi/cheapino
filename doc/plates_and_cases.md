@@ -13,6 +13,11 @@ actually screw this on, Im just using it without screws:
 [left plate with supports](../plates/cheapino-plate-left.stl)
 [right plate with supports](../plates/cheapino-plate-right.stl)
 
+TheMadClover made 2 really nice looking case options, one tented,
+and one flat, check them out here:
+https://www.printables.com/model/879047-two-case-designs-for-cheapinov2-split-ergo-keyboar
+![Case](images/cheapino_case.webp)
+
 ## V1
 
 This is a VERY nice case with built-in support for tenting
