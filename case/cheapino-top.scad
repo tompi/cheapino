@@ -10,10 +10,10 @@ include <modules.scad>
 
 difference() {
   case();
-  linear_extrude(4.1) offset(delta=0.1) base();
+  linear_extrude(4.1) offset(delta=0.15) base();
 
-  //translate([0,0,4.1])
-  //       board();
+//  translate([0,0,4.1])
+//        board();
 
 translate([0,0,top_of_pcb]) switch_holes();
 

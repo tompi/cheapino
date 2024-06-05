@@ -305,7 +305,7 @@ module mounting_holes() {
 // to the keyboard.
 module case() {
     color("red")
-    for (i = [0:step:9.1])
+    for (i = [0:step:8.1])
     {
         // factor = sqrt(pow(9.1, 2) - pow(i, 2));
         factor = min(3 - abs(i*0.7-3), 2.5);
@@ -380,7 +380,7 @@ module mounting_hole_insert() {
     color("#bcbd22")
     translate([45.85, -23, 0]) {
       translate([0,0,4.1])
-      cylinder(h=4, r=.7);
+      cylinder(h=4, r=1.1);
     }
 }
 
