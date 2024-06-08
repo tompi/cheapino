@@ -380,7 +380,7 @@ module mounting_hole_insert() {
     color("#bcbd22")
     translate([45.85, -23, 0]) {
       translate([0,0,4.1])
-      cylinder(h=4, r=1.1);
+      cylinder(h=4, r=1.4);
     }
 }
 
