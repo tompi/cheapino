@@ -1,7 +1,10 @@
 Firmware guide
 ==============
 
-There are 2 main routes, either flash the vial firmware and use the vial web or desktop ui
+The release section contains pre-built firmware for Vial, a minimal qwerty build
+and miryoku with either qwerty or colemak.
+
+There are 2 main routes to tweak your own keymap, either flash the vial firmware and use the vial web or desktop ui
 to configure the keyboard, or setup qmk for compiling locally.
 
 In either case, there are A LOT of options to tweak...
@@ -74,7 +77,7 @@ To help learn your keymap, @omark96 made this tool that works on windows: https:
 
 ## Encoder customization
 
-Tweaking the encoder actions needs to be done in the keyboards/cheapino/encoder.c file, they are not part of the keymap.
+Tweaking the encoder actions is supported in vial, but needs to be done in the keyboards/cheapino/encoder.c file for local qmk build, they are not part of the keymap.
 (you dont HAVE to be a progammer to change it, but you may call yourself a novice programmer once you do...)
 In the method called "turned", there are actions defined for multiple layers, this one is tweaked for my personal layer...
 The "else" section at line 26, will send page down for clockwise encoder turns, and page down for counter clockwise.
@@ -86,7 +89,10 @@ TBH, I dont really use the encoder much, so I didnt spend much time tweaking thi
 
 Once you change the encoder file, run the command from step 6 and 7 to deploy changes to your keyboard.
 
-Good luck!
+# Build your own Miryoku
+
+There is a branch of miryoku you can use for local builds here:
+https://github.com/tompi/qmk_firmware/tree/cheapinov2-miryoku
 
 # References for keymaps and qmk tweaking
 
@@ -96,3 +102,5 @@ Good luck!
 * Check out colemak-dh if you are curious about other layouts than qwerty: https://colemakmods.github.io/mod-dh/
 * For practicing, https://www.keybr.com/ and https://monkeytype.com/ are nice
 * If you are on reddit, you should join https://www.reddit.com/r/ErgoMechKeyboards/
+
+Good luck!
