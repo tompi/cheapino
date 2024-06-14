@@ -75,8 +75,8 @@ These are the items I really recommend in addition:
 
 | Part                | Quantity for 1 keyboard | Quantity in sold package | Notes |Price (USD)  | Url |
 | --------------------|------------------------:|-------------------------:|------|-------:|-----|
-| Sockets for MCU |                        1|                         5|   Choose the single row silver plated(cheapest...). These are lower profile, and easier to solder straight, but more expensive: https://www.    aliexpress.com/item/1005006248653180.html (9P PH3.5 Female Header). Socketing is a long term choice: you can reuse mcu for another build, or more   importantly replace it easily if it breaks.   |   2.01 | https://www.aliexpress.com/item/4001122376295.html |
-| Silicone bumpers|                      ~20|                       100| 5 mm wide and 2 mm high is fine. If you know you will only use the keyboard on a mat or with a case, you might not need this, otherwise you   want them.     |   1.55 | https://www.aliexpress.com/item/1005002619943801.html |
+| Sockets for MCU |                        1|                         5|   Choose the single row silver plated(cheapest...). These are lower profile, and easier to solder straight, but more expensive: https://www.aliexpress.com/item/1005006248653180.html (9P PH3.5 Female Header). Socketing is a long term choice: you can reuse mcu for another build, or more   importantly replace it easily if it breaks.   |   2.01 | https://www.aliexpress.com/item/4001122376295.html |
+| Silicone bumpers|                      ~20|                        50| 5 mm wide and 2 mm high is fine. If you know you will only use the keyboard on a mat or with a case, you might not need this, otherwise you   want them.     |   1.55 | https://www.aliexpress.com/item/1005003044229837.html |
 | Hotswap sockets |                       36|                        40| You want the mx one, NOT the low profile | 3.04 | https://www.aliexpress.com/item/1005006610157756.html |
 
 These are some nifty items I really like, but not necessary:
