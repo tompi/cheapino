@@ -6,14 +6,16 @@ $fn=50;
 height_translation = 0;
 include <modules.scad>
 
+// Rotate so you dont need to do that in extruder
+translate([0,0,9.1])
+rotate([0,180,0])
+difference() {
+  case();
+  linear_extrude(4.1) offset(delta=0.15) base();
 
-
-//difference() {
-//  case();
-//  linear_extrude(4.1) offset(delta=0.15) base();
-
-  translate([0,0,4.1])
-        board();
+  // For debug: comment out above 3 lines and comment in this
+  //translate([0,0,4.1])
+  //      board();
 
 translate([0,0,top_of_pcb]) switch_holes();
 
@@ -35,6 +37,7 @@ mcu_cutout();
 // mounting holes
 mounting_hole_inserts();
 
-//}
+}
+
 
 

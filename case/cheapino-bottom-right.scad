@@ -12,7 +12,9 @@ step = 0.05;
 
 $fn=50;
 
-
+// Rotate so you dont need to do that in extruder
+translate([0,0,2.5])
+rotate([0,180,0])
 difference()
 {
  bottom();
