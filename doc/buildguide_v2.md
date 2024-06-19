@@ -16,17 +16,36 @@ V2 build by soul_wish: https://www.reddit.com/r/ErgoMechKeyboards/comments/1c5nj
 
 In my experience it is easiest to solder the lowest components first, and the highest last, since you need to turn the PCB around with the components on the other side when soldering(and then you want the loose ones to rest directly at the desk). Thats why I suggest starting with the diodes, then the MCU, the switches, the RJ45 socket and lastly the encoder.
 
-### Step 1: Diodes
+### Step 1: Hotswap sockets
 
-You need to be careful to solder the diodes the correct way. The line on the diode should always be closest to the square pad of the footprint, NOT the round one. The PCB supports SMD and throug hole diodes, and you can choose which side you want to mount them. I suggest mounting them on the top side, to keep height of board as low as possible. 
+This step is optional, and only if you are building for hotswap.
+The sockets go on the bottom sides of of the PCB,
+Make sure you follow the PCB outline for the sockets(white lines),
+its very easy to solder them in the wrong direction(at least that
+is what I managed to do with more than half of them first time...)
+
+Just make sure to place them on the white outline, AND that 
+the big switch hole is unobstructed.
+
+![Hotswap](images/buildguidev2/hotswap.png)
+
+### Step 2: Diodes
+
+You need to be careful to solder the diodes the correct way. 
+The line on the diode should always be closest to the square pad of the footprint, 
+NOT the round one. The PCB supports SMD and throug hole diodes, 
+and you can choose which side you want to mount them. 
+I suggest mounting them on the top side, to keep height of board as low as possible. 
 
 ![Diodes](images/buildguidev2/diodes.png)
 
-If you use through hole diodes and have sockets for the MCU, keep the legs you cut off and use them for socketing the MCU.
+If you use through hole diodes and have sockets for the MCU, 
+keep the legs you cut off and use them for socketing the MCU.
 
 ![Diode legs](images/buildguidev2/diodes_legs.png)
 
-### Step 2: Bridge solder pads on right side
+
+### Step 3: Bridge solder pads on right side
 
 This step is only for the right side of the keyboard.
 You need to bridge the 7 solder pads. If you forget this, the right side will not register keypresses.
@@ -43,7 +62,7 @@ In the picture I bridged 4 of the 7:
 
 ![Bridging pads](images/buildguidev2/bridge.png)
 
-### Step 3: MCU
+### Step 4: MCU
 
 Only the pins on the 2 long sides are actually used, but if you have the RP2040-Zero with pre-soldered pin headers, there is room for that also. Choose one of the following steps:
 
@@ -61,8 +80,7 @@ Stick the clipped diode feet through the MCU, and down into the socket. Use a to
 
 Solder all the feet in place, and remove all 3 parts from the breadboard, and put them into the PCB, use some tape to hold it in place when you turn it around and solder it.
 
-![Socketing 3](images/socket3.jpeg)
-The image is of the v1 PCB, but MCU install is exactly the same for both versions...
+![Socketing 3](images/buildguidev2/socket3.jpeg)
 
 #### Use pinheader to mount MCU
 
@@ -70,9 +88,10 @@ Use the two longest yellow pin headers that come with the MCU: solder them to th
 
 ![MCU pin header](images/mcu_pinheader.jpeg)
 
-### Step 4: Install the Switches
+### Step 5: Install the Switches
 
 Next, it's time to install the switches. 
+Note: if you installed hotswap sockets you do NOT need to solder switches...
 If you only have 3 pin switches, refer to hints in the v1 build guide on how to align them.
 
 Pop them all in, turn the PCB around and solder them.
@@ -84,17 +103,17 @@ minimize risk of overheating switch and melting the plastic.
 ![Switches back](images/buildguidev2/switches2.png)
 
 
-### Step 5: Install the RJ45 sockets
+### Step 6: Install the RJ45 sockets
 
 Just align them to the white outline. They should stay in place by themselves when you flip the PCB to solder them.
 
-### Step 6: Install the encoder
+### Step 7: Install the encoder
 
 Put the encoder in the footprint on the right side, make sure its flush to the PCB when you solder it.
 
 ![Finished](images/buildguidev2/finished.png)
 
-### Step 7: Trim below and install bumpers
+### Step 8: Trim below and install bumpers
 
 Use the cutters to trim any extruding wires on the underside of the PCBs. 
 I havent done this with anything else than the encoder pins which I found to
@@ -106,7 +125,7 @@ Install rubber bumpers to protect your desk and keep the keyboard from moving.
 The v2 outline is a bit smaller than the v1, so be generous with the bumpers,
 sprinkle them all around, or typing will be wobbly.
 
-### Step 8: Test that everything works.
+### Step 9: Test that everything works.
 
 There is a good chance you forgot to solder a diode or a switch leg...
 
