@@ -13,6 +13,9 @@ actually screw this on, Im just using it without screws:
 [left plate with supports](../plates/cheapino-plate-left.stl)
 [right plate with supports](../plates/cheapino-plate-right.stl)
 
+This is a case I made, very compact, almost no empty space inside.
+
+
 TheMadClover made 2 really nice looking case options, one tented,
 and one flat, check them out here:
 https://www.printables.com/model/879047-two-case-designs-for-cheapinov2-split-ergo-keyboar

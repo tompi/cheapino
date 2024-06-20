@@ -22,3 +22,4 @@ Recipe for re-making this
 6. Create cutouts, and measure position from kicad
 7. Import holes, just to check that positions match
 8. Comment out holes, generate with F6 and export as stl
+9. Import stl files in any slicer to print them
