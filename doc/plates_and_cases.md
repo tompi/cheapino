@@ -13,7 +13,10 @@ actually screw this on, Im just using it without screws:
 [left plate with supports](../plates/cheapino-plate-left.stl)
 [right plate with supports](../plates/cheapino-plate-right.stl)
 
-This is a case I made, very compact, almost no empty space inside.
+This is a case I made, very compact, almost no empty space inside:
+https://www.thingiverse.com/thing:6661648
+
+Lots of pictures here: https://imgur.com/a/cheapino-2-case-R4ialST
 
 
 TheMadClover made 2 really nice looking case options, one tented,

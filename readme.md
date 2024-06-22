@@ -3,7 +3,7 @@ Cheapino
 
 Probably one of the cheapest split keyboards you can build.
 
-N.B.: Version 2 is out(check releases). I recommend you build v2 instead of v1.
+![V2 in case](images/cheapino-in-case.jpg)
 
 V2 build by soul_wish: https://www.reddit.com/r/ErgoMechKeyboards/comments/1c5njbj/my_first_build_cheapino_v2/ :
 ![V2 by soul_wish](doc/images/buildguidev2/v2.png)
@@ -21,7 +21,7 @@ support 18 switches and an encoder on the right side).
 See the [ordering guide](doc/orderingguide.md) for what you need and how to order.
 
 See the [build guide v2](doc/buildguide_v2.md) for more details and pictures of how to actually build it.
-(Obsolete: [build guide v1](doc/buildguide_v1.md))
+(Obsolete v1: [build guide v1](doc/buildguide_v1.md))
 
 Checkout the [troubleshooting guide](doc/troubleshooting.md) if your Cheapino does not work.
 
