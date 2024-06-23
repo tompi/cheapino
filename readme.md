@@ -5,89 +5,40 @@ Probably one of the cheapest split keyboards you can build.
 
 ![V2 in case](images/cheapino-in-case.jpg)
 
-V2 build by soul_wish: https://www.reddit.com/r/ErgoMechKeyboards/comments/1c5njbj/my_first_build_cheapino_v2/ :
-![V2 by soul_wish](doc/images/buildguidev2/v2.png)
-
-V1 build:
-![Cheapino with Iceberg keycaps](images/cheapino.jpg "Cheapino")
-
 This is the result of really enjoying building keyboards, 
 but not wanting to spend that much money on it. 
 The pcb is reversible, connected using rj45, 
 and utilizes a japanese duplex matrix, so only one
-mcu is needed(in fact it only uses 7 of the rj45 wires to 
-support 18 switches and an encoder on the right side).
+mcu is needed. For hotswap I recommend a case(pictured above),
+but soldering the switches is of course the cheapest option :)
 
-See the [ordering guide](doc/orderingguide.md) for what you need and how to order.
+You want one? 
+See the [ordering guide](doc/orderingguide.md) for what you need and how to buy it.
 
 See the [build guide v2](doc/buildguide_v2.md) for more details and pictures of how to actually build it.
-(Obsolete v1: [build guide v1](doc/buildguide_v1.md))
-
-Checkout the [troubleshooting guide](doc/troubleshooting.md) if your Cheapino does not work.
 
 Some info on the [plate/case solutions](doc/plates_and_cases.md) I know about.
 
+Checkout the [troubleshooting guide](doc/troubleshooting.md) if your Cheapino does not work.
+
 See the [firmware guide](doc/firmware.md) for how to build and customize keyboard firmware.
-News: both v1 and v2 supports vial, checkout the cheapino_vial.uf2 in the releases.
+The cheapino has vial support, or you can build your own QMK to customize EVERYTHING.
+Even the onboard RP2040-Zero LED is controllable by QMK...
 
-If you just want to flash [Miryoku](https://github.com/manna-harbour/miryoku) 
-on your Cheapino, download the [uf2 file from the release section](https://github.com/tompi/cheapino/releases/download/v1.0/cheapino_manna-harbour_miryoku.uf2), 
-put the rp2040-zero in dfu mode by holding boot while pressing reset, then return,
-then you should get a new usb drive which you can just copy the uf2 file to.
+![12](images/12.jpg)
+![2](images/2.jpg)
+![9](images/9.jpg)
+![10](images/10.jpg)
+![14](images/14.jpg)
+![3](images/3.jpg)
+![15](images/15.jpg)
+![4](images/4.jpg)
+![5](images/5.jpg)
+![1](images/1.jpg)
+![6](images/6.jpg)
+![7](images/7.jpg)
+![8](images/8.jpg)
+![11](images/11.jpg)
+![13](images/13.jpg)
 
-A qmk branch with support is located here: 
-https://github.com/tompi/qmk_firmware/tree/cheapino
-
-If you are wondering if this is actually usable, Im writing this on it, and Im pretty happy with it. 
-My son is also using his at his work and claims its very usable.
-
-These are a few other people that built it:
-
-![Cheapino by finex](images/otherbuild8.jpeg)
-
-https://www.reddit.com/r/ErgoMechKeyboards/comments/12xg4u7/built_the_cheapino/
-![Cheapino by TentacleSenpai69](images/otherbuild.jpeg)
-
-https://www.reddit.com/r/ErgoMechKeyboards/comments/13c274r/cheapino_build/
-![Cheapino by Palbi](images/otherbuild2.jpeg)
-
-https://discuss.tchncs.de/post/410101
-![Cheapino by PixelPrimer](images/otherbuild3.jpeg)
-
-https://discuss.tchncs.de/post/852362
-![Cheapino by Chraccoon](images/otherbuild4.jpeg)
-
-https://lemmy.world/post/2080485
-![Cheapino by Hansamann](images/otherbuild5.jpeg)
-
-https://lemmy.world/post/2832967
-![Cheapino by createkarma](images/otherbuild6.jpeg)
-
-![Cheapino by ??](images/otherbuild7.jpeg)
-
-https://www.reddit.com/r/ErgoMechKeyboards/comments/18i5jpu/first_build_cheapino/
-![Cheapino by lydomixian](images/otherbuild9.jpeg)
-
-https://www.reddit.com/r/ErgoMechKeyboards/comments/18zb3l1/first_build_finally_cheapino/
-![Cheapino by u/Tech-Buffoon](images/otherbuild10.jpeg)
-
-
-https://lemmy.world/post/2480447
-![Case by Chraccoon](images/case.jpeg)
-Printable file  for the case here: https://www.printables.com/model/541536-cheapino-case-with-basic-tenting
-
-Probably the cheapest tenting solution: https://www.reddit.com/r/ErgoMechKeyboards/comments/16s3yb2/cheapino/
-![Cheapino by @JordanNiphan](images/otherbuild11.jpeg)
-
-@keyboard-magpie made a plate which will help position the switches: [plate.stl](plate.stl)
-
-@ggppjj made some useful modifications to miryoku and enabled LED for that as well here: https://github.com/ggppjj/qmk_firmware/releases
-
-Drawbacks:
-
-* V1 only: Without a plate, its pretty difficult to solder swithes straight. I made a small helper "fork" to hold each column in place when soldering. Check the build guide for a link to a really good 3D printed fork.
-* RJ45 cables are a bit rigid, so they do not lay down on the table nicely like audio cables.
-* There is no official qmk support, you need to compile from my branch manually... Keymap can be edited in qmk configurator though.
-
-
-![Cheapino PCB](images/cheapino_pcb.jpg "Cheapino PCB")
+[Looking for the V1 version?](doc/v1.md)

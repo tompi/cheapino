@@ -9,8 +9,7 @@ to try their hand at building their own keyboard.
 
 I assume you read the [ordering guide](orderingguide.md) and have all the mandatory parts and tools.
 
-![V2 by soul_wish](images/buildguidev2/v2.png)
-V2 build by soul_wish: https://www.reddit.com/r/ErgoMechKeyboards/comments/1c5njbj/my_first_build_cheapino_v2/
+This guy also documented his build very good: https://imgur.com/a/building-cheapino-as-complete-beginner-G8dDaJi
 
 ## Steps
 

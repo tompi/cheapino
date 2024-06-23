@@ -5,6 +5,8 @@ Plates and cases
 It has no support or screw inserts, so not ideal for hotswap
 builds, but does the job.
 
+![Case](../images/v1/v1_with_plate.jpg)
+
 ## V2
 
 This is the basically the same plate with a few supports
@@ -18,6 +20,7 @@ https://www.thingiverse.com/thing:6661648
 
 Lots of pictures here: https://imgur.com/a/cheapino-2-case-R4ialST
 
+![Case](../images/case.jpg)
 
 TheMadClover made 2 really nice looking case options, one tented,
 and one flat, check them out here:
@@ -30,5 +33,11 @@ This is a VERY nice case with built-in support for tenting
 and a travel solution:
 https://www.printables.com/model/835134-cheapino-split-keyboard-case
 
+
+![Case](../images/v1/case2.jpg)
+
 This is a case for v1 with a simple tenting solution:
 https://www.printables.com/model/541536-cheapino-case-with-basic-tenting
+
+
+![Case](../images/v1/case.jpeg)
