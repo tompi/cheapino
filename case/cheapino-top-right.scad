@@ -23,7 +23,7 @@ mirror() {
 
     // RJ45 socket
     color("cyan") {
-        translate([29.955, -9.03, 4.1])
+        translate([29.5, -9.03, 4.1])
         linear_extrude(10)
         square([30, 16]);
 
