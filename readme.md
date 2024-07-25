@@ -25,6 +25,8 @@ See the [firmware guide](doc/firmware.md) for how to build and customize keyboar
 The cheapino has vial support, or you can build your own QMK to customize EVERYTHING.
 Even the onboard RP2040-Zero LED is controllable by QMK...
 
+I added [a few tips and tricks here](doc/tips.md).
+
 ![12](images/12.jpg)
 ![2](images/2.jpg)
 ![9](images/9.jpg)
