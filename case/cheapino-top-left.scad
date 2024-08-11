@@ -11,7 +11,7 @@ translate([0,0,9.1])
 rotate([0,180,0])
 difference() {
   case();
-  linear_extrude(4.1) offset(delta=0.15) base();
+  linear_extrude(4.1) offset(delta=0.45) base();
 
   // For debug: comment out above 3 lines and comment in this
   //translate([0,0,4.1])
