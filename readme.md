@@ -3,7 +3,7 @@ Cheapino
 
 Probably one of the cheapest split keyboards you can build.
 
-![V2 in case](images/cheapino-in-case.jpg)
+![V2 in case](images/cheapino-in-case-2.jpg)
 
 This is the result of really enjoying building keyboards, 
 but not wanting to spend that much money on it. 
@@ -27,6 +27,8 @@ Even the onboard RP2040-Zero LED is controllable by QMK...
 
 I added [a few tips and tricks here](doc/tips.md).
 
+![V2 in case](images/cheapino-in-case-3.jpg)
+![V2 in case](images/cheapino-in-case.jpg)
 ![12](images/12.jpg)
 ![2](images/2.jpg)
 ![9](images/9.jpg)
