@@ -102,7 +102,7 @@ module switch(bottom) {
 module diode() {
 color("#8c564b")
 linear_extrude(height=1.65)
-square([9.5, 1.6]);
+square([9.5, 1.8]);
 }
 
 module rdiode() {

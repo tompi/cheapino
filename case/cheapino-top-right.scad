@@ -10,7 +10,7 @@ include <modules.scad>
 mirror() {
   difference() {
     case();
-    linear_extrude(4.1) offset(delta=0.15) base();
+    linear_extrude(4.1) offset(delta=0.45) base();
 
     // holes and shape for debug
     // translate([0,0,4.1])
