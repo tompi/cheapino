@@ -7,6 +7,9 @@ height_translation = 0;
 include <modules.scad>
 
 
+// Rotate so you dont need to do that in extruder
+translate([0,0,9.1])
+rotate([0,180,0])
 mirror() {
   difference() {
     case();
