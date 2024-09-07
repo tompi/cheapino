@@ -75,9 +75,12 @@ These are the items I really recommend in addition:
 
 | Part                | Quantity for 1 keyboard | Quantity in sold package | Notes |Price (USD)  | Url |
 | --------------------|------------------------:|-------------------------:|------|-------:|-----|
-| Sockets for MCU |                        1|                          5|   Choose the single row silver plated(cheapest...). These are lower profile, and easier to solder straight, but more expensive: https://www.aliexpress.com/item/1005006248653180.html (9P PH3.5 Female Header). Socketing is a long term choice: you can reuse mcu for another build, or more   importantly replace it easily if it breaks.   |   2.01 | https://www.aliexpress.com/item/4001122376295.html |
+| Sockets for MCU |                        1|                          5|   Choose the single row silver plated(cheapest...). These are lower profile, and easier to solder straight, but more expensive(one downside is diode legs do not work, this socket needs more sturdy pins, so use the pins that comes with the rp2040-zero, even though they are more difficult to clip and also get out of the header they are in...): https://www.aliexpress.com/item/1005006248653180.html (9P PH3.5 Female Header). Socketing is a long term choice: you can reuse mcu for another build, or more   importantly replace it easily if it breaks.   |   2.01 | https://www.aliexpress.com/item/4001122376295.html |
 | Silicone bumpers|                      ~20|                        100| 5 mm wide and 2 mm high is fine. If you know you will only use the keyboard on a mat or with a case, you might not need this, otherwise you   want them.     |   1.65 | https://www.aliexpress.com/item/1005005592713123.html |
 | Hotswap sockets |                       36|                         40| You want the mx one, NOT the low profile | 3.04 | https://www.aliexpress.com/item/1005006610157756.html |
+
+Its very easy to underestimate the advantage of socketing the MCU. Think of it as an insurance. Desoldering the the pin-headers that come with the mcu is VERY difficult... If something goes wrong, you might need to switch the mcu(if you fry it because of a bridge between gnd and vcc, or if it is defect from the factory...), or if the pcb is damaged, you could re-use the mcu in a new pcb if you manage to remove it... Also, when things are not working, its very easy to tell if the
+problem is on the pcb or the mcu, by removing the mcu...
 
 These are some nifty items I really like, but not necessary:
 

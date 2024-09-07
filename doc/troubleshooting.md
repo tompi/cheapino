@@ -30,10 +30,18 @@ Try different cables, if one is working fine, this is your issue.
 
 ## Suddenly my cheapino outputs A LOT of random characters
 
-This will happen with some cheap encoders, they may not de-tent properly, and get stuck in a position which creates problems for the firmware. The solution to this is just to turn the encoder a little, and it should go away...
+This will happen with some cheap encoders, they may not de-tent properly, and get stuck in a position which creates problems for the firmware. The solution to this is just to turn the encoder a little, and it should go away... (this should NOT happen on v2...)
 
-## I Ordered a beta of the version 2 and the 2 middle columns on each side are not working
+## The keyboard outputs random/none/wrong keys
 
-This is my fault... You need to run a bodge wire between 2 points on each half:
-![Missing connection on v2 beta](images/bodge.png) 
-![Fixed on both sides](images/bodge2.png) 
+Make sure you flashed the version matching your PCB. V1 firmware will NOT work on V2, and vica versa.
+If in doubt, just download from the release section and flash again.
+
+## The keyboard/mcu is heating up really fast
+
+This can happen if there is a short between gnd and vcc. Check continuity and find the short, and fix it with som solder wick or a pump.
+
+## None of the above helped!
+
+Open up an issue! I just think its fun to troubleshoot, this project is a really nice hobby which I enjoy spending time on!
+
