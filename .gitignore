@@ -27,6 +27,8 @@ gerber.*
 *.xml
 *.csv
 
+default.profraw
+
 
 flex/gerber
 gerber

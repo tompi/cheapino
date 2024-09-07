@@ -20,7 +20,9 @@ https://www.thingiverse.com/thing:6661648
 
 Lots of pictures here: https://imgur.com/a/cheapino-2-case-R4ialST
 
-![Case](../images/case.jpg)
+![Case](../images/cheapino-in-case-2.jpg)
+
+[A bit unfinished build guide for this case here.](case_buildguide.md)
 
 TheMadClover made 2 really nice looking case options, one tented,
 and one flat, check them out here:
