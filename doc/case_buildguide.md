@@ -87,7 +87,8 @@ insert the screws through the case bottom if youre using it, if not, just screw 
 
 Once this is done, flip back over and refit the switches and keycaps. As i mentioned, my printer isn't callibrated very well, so pushing the switches in took a LOT of force, but they did go in, and as a bonus, this means my switches have zero wobble.
 It looked like this once i got all the switches and keycaps installed.
+![image](../images/case-build/12.png) 
 
 Instead of using the case bottom, i just added some 3M dots as cusioning, and they work perfectly well for me.
-![image](../images/case-build/12.png) 
+![image](../images/case-build/13.png) 
 
