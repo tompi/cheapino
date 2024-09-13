@@ -27,6 +27,7 @@ Even the onboard RP2040-Zero LED is controllable by QMK...
 
 I added [a few tips and tricks here](doc/tips.md).
 
+![V2 in case](images/glennmca-dev-cheapino.png)
 ![V2 in case](images/cheapino-in-case-2.jpg)
 ![V2 in case](images/cheapino-in-case-6.jpg)
 ![V2 in case](images/cheapino-in-case-4.jpg)
