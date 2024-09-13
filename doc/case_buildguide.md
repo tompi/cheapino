@@ -54,39 +54,40 @@ dont obstruct any screws(otherwise you will have problems dismantling the case i
 ## Case assembly
 I need to preface this part, my printer which is a second hand ender 5, isn't calibrated properly, and i'm too lazy to invest the time to do it.
 With that out of the way, I printed tompi's case, and got some new keycaps, a magnetic USB cable and a nicer patch lead to connect the halves.
-![image](https://gist.github.com/user-attachments/assets/15ebd1f1-83a6-4e1d-a220-7af6edfc591e)
+![image](../images/case-build/1.png)
 
 #### Fitting the threaded inserts
 After printing the case top, you will see these holes on the inside.
-![image](https://gist.github.com/user-attachments/assets/3a4afe6b-370e-4ac2-971b-d28149e87beb)
+![image](../images/case-build/2.png)
 
 I found using a pair of curved needle-nose pliers made this quite easy to do.
 - Line up the threaded insert with pliers
 - Push the insert into the hole with a hot soldering iron
 - Remove the soldering iron when the insert is level with the top of the hole (sometimes the insert will be stuck on the iron, in this case, use the pliers to hold the insert in place when you remove the iron)
 
-![image](https://gist.github.com/user-attachments/assets/9024092e-54f1-41dc-b0f0-8dcad8907f96)
-![image](https://gist.github.com/user-attachments/assets/18b25f73-ba2a-4688-864a-9b1130dd88b1)
-![image](https://gist.github.com/user-attachments/assets/57412519-ddff-4e40-be06-edde2f84ca09)
+![image](../images/case-build/3.png)
+![image](../images/case-build/4.png)
+![image](../images/case-build/5.png)
 Repeat for all "holes"
-![image](https://gist.github.com/user-attachments/assets/f218bd63-8fae-46d5-a108-ac4b3e966099)
+![image](../images/case-build/6.png)
 
 #### Fitting the case
 Remove all the switches
-![image](https://gist.github.com/user-attachments/assets/e113c0e2-8ea6-4502-bcd9-9a4ea22fb643)
+![image](../images/case-build/7.png)
 
 Place the PCB inside the case
-![image](https://gist.github.com/user-attachments/assets/f17953d5-0baa-46b7-933f-b2c129452c5e)
-![image](https://gist.github.com/user-attachments/assets/47a5d460-fd40-4b4b-a2a8-62437de7d574)
+![image](../images/case-build/8.png)
+![image](../images/case-build/9.png)
 
 Flip it upside down   
 **Note:** i didn't use the case bottom, but if you did, set it in place at this point.
 insert the screws through the case bottom if youre using it, if not, just screw them in through the screw holes in the PCB.
-![image](https://gist.github.com/user-attachments/assets/b0ac1cd7-c691-432a-97e2-34575aea7145)
-![image](https://gist.github.com/user-attachments/assets/9ae241b7-64cf-48d7-8d95-0c1b12918594)
+![image](../images/case-build/10.png)
+![image](../images/case-build/11.png)
 
 Once this is done, flip back over and refit the switches and keycaps. As i mentioned, my printer isn't callibrated very well, so pushing the switches in took a LOT of force, but they did go in, and as a bonus, this means my switches have zero wobble.
 It looked like this once i got all the switches and keycaps installed.
 
 Instead of using the case bottom, i just added some 3M dots as cusioning, and they work perfectly well for me.
-![image](https://gist.github.com/user-attachments/assets/ca1fd384-3106-459b-b09f-116119a718f7) 
+![image](../images/case-build/12.png) 
+
