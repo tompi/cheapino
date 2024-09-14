@@ -14,7 +14,7 @@ Check out the links at the bottom for further reference.
 
 This is the easiest way of setting up your keyboard:
 
-1. Download cheapino_vial.uf2 file for your release(1 or 2)
+1. Download cheapino_vial.uf2 file for your release([v2 is here](https://github.com/tompi/cheapino/releases/download/v2.0/cheapino_vial.uf2))
 2. Put your rp2040-zero in dfu mode by holding boot button while you plug in usb c
 3. The rp2040-zero should show up as a usb drive
 4. Drag and drop uf2 file to the usb drive that popped up after 2.
@@ -93,6 +93,16 @@ Once you change the encoder file, run the command from step 6 and 7 to deploy ch
 
 There is a branch of miryoku you can use for local builds here:
 https://github.com/tompi/qmk_firmware/tree/cheapinov2-miryoku
+
+# Miryoku with vial
+
+@glennmca used VIAL to build a Miryoku layout, documented here:
+https://gist.github.com/glennmca-dev/ddddcafe46dd1e2e36ed853bf55077e3
+
+# Compile QMK with docker
+
+I did not try this, but seems way easier than mucking about with installing a trillion dev-dependencies:
+https://github.com/qmk/qmk_firmware/blob/master/docs/getting_started_docker.md
 
 # References for keymaps and qmk tweaking
 
