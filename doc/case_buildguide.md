@@ -51,3 +51,44 @@ Next place the bottom into the top case, and attach it using 9 M2 screws per sid
 Lastly remove adhesives for magsafe stickers, if you have them, and attach it carefully so you
 dont obstruct any screws(otherwise you will have problems dismantling the case in the future).
 
+## Case assembly
+I need to preface this part, my printer which is a second hand ender 5, isn't calibrated properly, and i'm too lazy to invest the time to do it.
+With that out of the way, I printed tompi's case, and got some new keycaps, a magnetic USB cable and a nicer patch lead to connect the halves.
+![image](../images/case-build/1.png)
+
+#### Fitting the threaded inserts
+After printing the case top, you will see these holes on the inside.
+![image](../images/case-build/2.png)
+
+I found using a pair of curved needle-nose pliers made this quite easy to do.
+- Line up the threaded insert with pliers
+- Push the insert into the hole with a hot soldering iron
+- Remove the soldering iron when the insert is level with the top of the hole (sometimes the insert will be stuck on the iron, in this case, use the pliers to hold the insert in place when you remove the iron)
+
+![image](../images/case-build/3.png)
+![image](../images/case-build/4.png)
+![image](../images/case-build/5.png)
+Repeat for all "holes"
+![image](../images/case-build/6.png)
+
+#### Fitting the case
+Remove all the switches
+![image](../images/case-build/7.png)
+
+Place the PCB inside the case
+![image](../images/case-build/8.png)
+![image](../images/case-build/9.png)
+
+Flip it upside down   
+**Note:** i didn't use the case bottom, but if you did, set it in place at this point.
+insert the screws through the case bottom if youre using it, if not, just screw them in through the screw holes in the PCB.
+![image](../images/case-build/10.png)
+![image](../images/case-build/11.png)
+
+Once this is done, flip back over and refit the switches and keycaps. As i mentioned, my printer isn't callibrated very well, so pushing the switches in took a LOT of force, but they did go in, and as a bonus, this means my switches have zero wobble.
+It looked like this once i got all the switches and keycaps installed.
+![image](../images/case-build/12.png) 
+
+Instead of using the case bottom, i just added some 3M dots as cusioning, and they work perfectly well for me.
+![image](../images/case-build/13.png) 
+
