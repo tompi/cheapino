@@ -16,7 +16,7 @@ mirror() {
     linear_extrude(4.1) offset(delta=0.45) base();
 
     // holes and shape for debug
-    // translate([0,0,4.1])
+    //translate([0,0,4.1])
     //    board();
 
     translate([0,0,top_of_pcb]) switch_holes();
@@ -54,7 +54,6 @@ mirror() {
 
 
     mounting_hole_inserts();
-
   }
 }
 

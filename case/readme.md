@@ -5,8 +5,20 @@ If you just want to make small adjustments and generate
 your own version, install openscad, and open a scad file
 and press F6 to generate. Export->stl to get printable model.
 
-For the top parts, I recommend rotating them 180 degrees
-in the slicer, so the top is on the printer bed.
+Make sure you install the development snapshot, since the
+last official release is hopelessly out of date...
+You need to tweak some settings to be able to build
+the model efficiently: Go to preferences->advanced and
+increase "turn off rendering at" to 3 million.
+Next go to preferences->features and check "manifold"
+(this will enable multi-thread rendering and speed things
+ up dramatically!)
+
+For the slicer, I did not do much experimenting... 
+Maybe somebody into 3D printing could help me out with
+the silicone bumper recesses: removing the supports in
+these holes is a pain...
+
 I used 100% infill, since its not that much difference
 in time/weight, and I hope that it contributes to a more
 compact and better sounding case...

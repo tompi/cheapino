@@ -80,6 +80,8 @@
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "warning",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -488,7 +490,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "case/left",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -101,8 +101,8 @@ module switch(bottom) {
 
 module diode() {
 color("#8c564b")
-linear_extrude(height=1.65)
-square([9.5, 1.8]);
+linear_extrude(height=1.85)
+square([9.9, 2]);
 }
 
 module rdiode() {
@@ -228,30 +228,30 @@ module switches(bottom) {
 
 module diodes() {
     // The horizontal diodes
-    translate([-18, 10.21, 0]) diode();
-    translate([-28.59, 10.21, 0]) diode();
-    translate([-26.23, 29.18, 0]) diode();
-    translate([-9.463,21.97,0]) diode();
-    translate([0.8, 21.97, 0]) diode();
-    translate([14.106, 19.872, 0]) diode();
-    translate([16.138,1.066,0]) diode();
-    translate([5.888,-19.128,0]) diode();
-    translate([-5.018, 2.971, 0]) diode();
-    translate([-37.267,3.555,0]) diode();
-    translate([-47.627,3.555,0]) diode();
-    translate([-61.234,12.013,0]) diode();
-    translate([-61.6,-7.011,0]) diode();
-    translate([-47.616,22.504,0]) diode();
+    translate([-18.2, 10.01, 0]) diode();
+    translate([-28.79, 10.01, 0]) diode();
+    translate([-26.43, 28.98, 0]) diode();
+    translate([-9.663,21.77,0]) diode();
+    translate([0.8, 21.77, 0]) diode();
+    translate([13.906, 19.672, 0]) diode();
+    translate([15.938,0.866,0]) diode();
+    translate([5.688,-19.328,0]) diode();
+    translate([-5.218, 2.771, 0]) diode();
+    translate([-37.467,3.355,0]) diode();
+    translate([-47.827,3.355,0]) diode();
+    translate([-61.434,11.813,0]) diode();
+    translate([-61.8,-7.211,0]) diode();
+    translate([-47.816,22.304,0]) diode();
 
     // The vertical(ish) diodes
-    translate([10.61, 24.7, 0]) rdiode();
-    translate([10.585, 7.061, 0]) rdiode();
-    translate([29.66, 25.106, 0]) rdiode();
-    translate([28.365, -2.935, 0]) rdiode();
-    translate([10.585, -13.146, 0]) rdiode();
-    translate([25.977, -31.18, 0]) rdiode();
+    translate([10.81, 24.5, 0]) rdiode();
+    translate([10.785, 6.861, 0]) rdiode();
+    translate([29.86, 24.906, 0]) rdiode();
+    translate([28.565, -2.935, 0]) rdiode();
+    translate([10.785, -13.346, 0]) rdiode();
+    translate([26.177, -31.38, 0]) rdiode();
 
-    translate([46.5, -35.5, 0])
+    translate([46.58, -35.6, 0])
     rotate(76)
     diode();
 }
