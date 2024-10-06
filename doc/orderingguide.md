@@ -93,6 +93,7 @@ https://www.reddit.com/r/UsbCHardware/comments/motlhn/magnetic_usbc_cables_are_n
 
 These cables are really good looking: https://www.aliexpress.com/item/1005006190874241.html
 Pictures of them in action here: https://www.reddit.com/r/ErgoMechKeyboards/comments/1bz4lse/my_first_build_the_cheapino_v2/
+NB: Some high-end(USB3.2) cables in combination with e.g. Mac M1 causes issues. For the cheapino, a cheap usb cable works best ;) Check the trouble shooting guide for more info.
 
 
 ## Switches
