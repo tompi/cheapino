@@ -94,6 +94,15 @@ Once you change the encoder file, run the command from step 6 and 7 to deploy ch
 There is a branch of miryoku you can use for local builds here:
 https://github.com/tompi/qmk_firmware/tree/cheapinov2-miryoku
 
+You need to build this with the miryoku keymap, so somethin like this:
+```sh
+qmk flash -kb cheapino -km manna-harbour_miryoku
+```
+
+To build with different layouts, follow the docs here(you can skip to the build section if you use my branch):
+https://github.com/manna-harbour/miryoku_qmk/tree/miryoku/users/manna-harbour_miryoku
+
+
 # Miryoku with vial
 
 @glennmca used VIAL to build a Miryoku layout, documented here:
