@@ -1,5 +1,20 @@
 # Cheapino troubleshooting
 
+## The keyboard lights up but does not work
+
+This can happen for 2 reasons:
+
+### You used a charging only cable. 
+Solution: Find a cable with data support.
+
+### There is an issue with certain combinations of high end cables and computers. 
+Checkout this issue: 
+https://github.com/tompi/cheapino/issues/78
+and this reddit post for more info: 
+https://www.reddit.com/r/ErgoMechKeyboards/comments/1fx67uz/cheapino_not_working_but_powers_on_with_usba/
+
+Solution: Try a USB 2.0 cable(usually this just means "cheaper"...)
+
 ## Single switches are not working
 
 Usually, this is caused by either not soldering the diode, soldering the diode in the wrong direction, or in some very rare cases a malfunctioning diode or switch.
