@@ -11,6 +11,9 @@ I assume you read the [ordering guide](orderingguide.md) and have all the mandat
 
 This guy also documented his build very good: https://imgur.com/a/building-cheapino-as-complete-beginner-G8dDaJi
 
+This soldering guide is pretty good:
+https://www.circuitspecialists.com/blog/how-to-soldering-correctly-soldering-101/
+
 ## Steps
 
 In my experience it is easiest to solder the lowest components first, and the highest last, since you need to turn the PCB around with the components on the other side when soldering(and then you want the loose ones to rest directly at the desk). Thats why I suggest starting with the diodes, then the MCU, the switches, the RJ45 socket and lastly the encoder.
@@ -34,7 +37,9 @@ You need to be careful to solder the diodes the correct way.
 The line on the diode should always be closest to the square pad of the footprint, 
 NOT the round one. The PCB supports SMD and throug hole diodes, 
 and you can choose which side you want to mount them. 
-I suggest mounting them on the top side, to keep height of board as low as possible. 
+I suggest mounting them on the top side, to keep height of board as low as possible.
+
+I like to solder from the component side, not the dangling legs side, but each to his own ;)
 
 ![Diodes](images/buildguidev2/diodes.png)
 
