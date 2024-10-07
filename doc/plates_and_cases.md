@@ -5,7 +5,7 @@ Plates and cases
 It has no support or screw inserts, so not ideal for hotswap
 builds, but does the job.
 
-![Case](../images/v1/v1_with_plate.jpg)
+![Case](gallery/v1/v1_with_plate.jpg)
 
 ## V2
 
@@ -20,7 +20,7 @@ https://www.thingiverse.com/thing:6661648
 
 Lots of pictures here: https://imgur.com/a/cheapino-2-case-R4ialST
 
-![Case](../images/cheapino-in-case-2.jpg)
+![Case](gallery/cheapino-in-case-2.jpg)
 
 [A bit unfinished build guide for this case here.](case_buildguide.md)
 
@@ -36,10 +36,10 @@ and a travel solution:
 https://www.printables.com/model/835134-cheapino-split-keyboard-case
 
 
-![Case](../images/v1/case2.jpg)
+![Case](gallery/v1/case2.jpg)
 
 This is a case for v1 with a simple tenting solution:
 https://www.printables.com/model/541536-cheapino-case-with-basic-tenting
 
 
-![Case](../images/v1/case.jpeg)
+![Case](gallery/v1/case.jpeg)
