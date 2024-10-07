@@ -74,6 +74,10 @@ Only the pins on the 2 long sides are actually used, but if you have the RP2040-
 
 Socketing makes it easier to reuse the MCU(the RP2040-Zero) for another build later, or swap it if its broken or malfunctions. 
 
+NB: The cheap sockets linked from the ordering guide happily accepts diode legs, while the more "expensive"
+ones typically have larger holes, so for these you might wanna go with picking out the legs that came in the
+yellow plastic with the mcu(they are thicker and sturdier than diode legs).
+
 If you have sockets for the MCU, mount them on a breadboard, or stick them in some cardboard to get them straight when mounting.
 
 ![Socketing 1](images/socket1.jpeg)
