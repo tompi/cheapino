@@ -3,7 +3,7 @@ Cheapino
 
 Probably one of the cheapest split keyboards you can build.
 
-![V2 in case](doc/gallery/cheapino-in-case-8.jpg)
+![V2 in case](doc/gallery/cheapino-in-case-9.jpg)
 
 This is the result of really enjoying building keyboards, 
 but not wanting to spend that much money on it. 

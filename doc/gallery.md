@@ -4,6 +4,8 @@ Cheapino gallery
 Send me a picture of your Cheapino!
 
 ![V2 in case](gallery/cheapino-in-case-8.jpg)
+![V2 in case](gallery/cheapino-in-case-10.jpg)
+![V2 in case](gallery/cheapino-in-case-9.jpg)
 ![V2 in case](gallery/cheapino-in-case-7.jpg)
 ![V2 in case](gallery/glennmca-dev-cheapino.png)
 ![V2 in case](gallery/cheapino-in-case-2.jpg)
