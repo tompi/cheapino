@@ -1,0 +1,127 @@
+<html>
+  <body>
+<h1>Trace debugging</h1>
+
+
+<div style="position: relative; width: 98%">
+<img src="pcb.jpg" style="width: 98%">
+<img src="darken.png" class="layer" style="opacity: 0.5">
+<img src="left_column_1.png" class="layer" id="lc1">
+<img src="left_column_2.png" class="layer" id="lc2">
+<img src="left_column_3.png" class="layer" id="lc3">
+<img src="left_row_1.png" class="layer" id="lr1">
+<img src="left_row_2.png" class="layer" id="lr2">
+<img src="left_row_3.png" class="layer" id="lr3">
+<img src="right_column_1.png" class="layer" id="rc1">
+<img src="right_column_2.png" class="layer" id="rc2">
+<img src="right_column_3.png" class="layer" id="rc3">
+<img src="right_row_1.png" class="layer" id="rr1">
+<img src="right_row_2.png" class="layer" id="rr2">
+<img src="right_row_3.png" class="layer" id="rr3">
+<img src="right_row_4.png" class="layer" id="rr4">
+</div>
+
+<table>
+  <theader>
+    <th colspan="2">Left</th>
+    <th colspan="2">Right</th>
+  </theader>
+  <tbody>
+    <tr>
+      <th>Rows</th>
+      <th>Columns</th>
+      <th>Rows</th>
+      <th>Columns</th>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="cb_lr1" checked><label for="cb_lr1">One</label></td>
+      <td><input type="checkbox" id="cb_lc1" checked><label for="cb_lc1">One</label></td>
+      <td><input type="checkbox" id="cb_rr1" checked><label for="cb_rr1">One</label></td>
+      <td><input type="checkbox" id="cb_rc1" checked><label for="cb_rc1">One</label></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="cb_lr2" checked><label for="cb_lr2">Two</label></td>
+      <td><input type="checkbox" id="cb_lc2" checked><label for="cb_lc2">Two</label></td>
+      <td><input type="checkbox" id="cb_rr2" checked><label for="cb_rr2">Two</label></td>
+      <td><input type="checkbox" id="cb_rc2" checked><label for="cb_rc2">Two</label></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="cb_lr3" checked><label for="cb_lr3">Three</label></td>
+      <td><input type="checkbox" id="cb_lc3" checked><label for="cb_lc3">Three</label></td>
+      <td><input type="checkbox" id="cb_rr3" checked><label for="cb_rr3">Three</label></td>
+      <td><input type="checkbox" id="cb_rc3" checked><label for="cb_rc3">Three</label></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td><input type="checkbox" id="cb_rr4" checked><label for="cb_rr4">Four</label></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<a onclick="toggleAll(false);" href="#">Hide all</a>
+<a onclick="toggleAll(true);" href="#">Show all</a>
+    
+<p>
+If you are having problems with a row or a column, try to hide all others. When you only have the problematic columns or rows left, you can check all the highlighted solder joints.
+</p>
+<p>
+You might try to short a column/row combo at the mcu(preferably out of socket).
+If this does not work, the mcu might be broken.
+</p>
+<p>
+Next try at the left RJ45 socket, if this does not work, you should reflow the socket pins, and if that does not help, check for scratched traces...(you might get away with running a bodge wire if thats the case.)
+</p>
+<p>
+Next try at the right RJ45 socket, if that does not work, try a few other cables, and next try to re-flow the pins.
+</p>
+<p>
+Next try at the solder bridge points right above the logo on the right side.
+</p>
+
+<style>
+  .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+  }
+  body {
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    padding: 2em;
+  }
+  table, th, td {
+    border: solid;
+  }
+</style>
+
+<script>
+    var ids = ["lc", "lr", "rc", "rr"];
+    for (var ix = 0; ix<=4; ix++) {
+      let id_ix = 0;
+      while (id_ix < ids.length) {
+        var id = `${ids[id_ix]}${ix}`;
+            console.log(id);
+        var input = document.querySelector(`input[id=cb_${id}`);
+        if (input) {
+          input.addEventListener('change', function() {
+            console.log(id);
+            var imgId = this.id.substr(3);
+            var img = document.querySelector(`#${imgId}`);
+            img.style.visibility = this.checked ? "visible" : "hidden";
+          });
+        }
+        id_ix++;
+      }
+    }
+
+    function toggleAll(shown) {
+      Array.from(document.getElementsByTagName("input"))
+        .forEach(e => {e.checked = shown; e.dispatchEvent(new Event("change"))})
+    }
+</script>
+  </body>
+</html>
