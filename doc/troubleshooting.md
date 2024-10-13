@@ -27,7 +27,7 @@ If it doesnt, try to short the circuit "before" the diode. If this works the dio
 
 ## Entire rows or entire columns are not working
 
-This could be caused by several things:
+This could be caused by several things. Read up below, and view [the interactive schematic](https://tompi.github.io/cheapino/doc/troubleshooting/routing.html) for easy troubleshooting.
 
 ### Bad connection on MCU
 
