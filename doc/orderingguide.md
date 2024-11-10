@@ -63,7 +63,7 @@ These are the items I usually order:
 
 | Part                | Quantity for 1 keyboard | Quantity in sold package | Notes        |Price (USD)  | Url |
 | --------------------|------------------------:|-------------------------:|--------------|----:|-----|
-| RP2040-Zero     |                        1|                         1|Choose the version without header, and buy some sockets, its worth it!     |1.78 | https://www.aliexpress.com/item/1005004281549886.html |
+| RP2040-Zero     |                        1|                         1|Choose the version without header(The pre-soldered headers can be a very tight fit...), and buy some sockets, its worth it!     |1.78 | https://www.aliexpress.com/item/1005004281549886.html |
 | RJ45 Sockets (8P8C) |                        2|                        10||2.37 | https://www.aliexpress.com/item/32902228456.html |
 | Diodes 1N4148   |                       42|                       100|You can also ordes smb if you want. Smaller but more difficult to solder: https://www.aliexpress.com/item/4000685043735.html              |1.02 | https://www.aliexpress.com/item/32660088529.html |
 | EC11 Encoder        |                        1|                         5|              |2.68 | https://www.aliexpress.com/item/1005004907970664.html |
