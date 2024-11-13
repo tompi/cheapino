@@ -8,9 +8,13 @@ and press F6 to generate. Export->stl to get printable model.
 Make sure you install the development snapshot, since the
 last official release is hopelessly out of date...
 You need to tweak some settings to be able to build
-the model efficiently: Go to preferences->advanced and
+the model efficiently:
+ - Go to preferences->advanced and
 increase "turn off rendering at" to 3 million.
-Next go to preferences->features and check "manifold"
+ - Go to preferences->features and check "manifold"
+   - In OpenSCAD version 2024.11.01, "manifold" is under: Advanced -> 3D Rendering -> Backend
+   - <img width="422" alt="image" src="https://github.com/user-attachments/assets/abb358e1-41b6-43b3-9561-21032cae92ca">
+
 (this will enable multi-thread rendering and speed things
  up dramatically!)
 
