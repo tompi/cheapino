@@ -42,13 +42,13 @@ This is the recipe for windows(for mac/linux, install qmk the recommended way an
 ```sh
 git remote add tompi https://github.com/tompi/qmk_firmware
 ```
-4. Run this command to actually fetch the code(replace "cheapino" with "cheapinov2" if you are using cheapino v2 pcbs):
+4. Run this command to actually fetch the code(replace "cheapinov2" with "cheapino" if you are using cheapino v1 pcbs):
 ```sh
-git fetch tompi cheapino
+git fetch tompi cheapinov2
 ```
-5. Run this command to switch local files to the cheapino variant(again, replace "cheapino" with "cheapinov2" if using v2 pcbs):
+5. Run this command to switch local files to the cheapino variant(again, replace "cheapinov2" with "cheapino" if using v1 pcbs):
 ```sh
-git checkout tompi/cheapino
+git checkout tompi/cheapinov2
 ```
 6.Now you should be able to make and flash with:
 ```sh
