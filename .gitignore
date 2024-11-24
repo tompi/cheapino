@@ -16,6 +16,7 @@ _autosave*
 *.gbrjob
 gerber.*
 *.lck
+*auto_saved_files*
 
 # Netlist files (exported from Eeschema)
 *.net
