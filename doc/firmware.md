@@ -78,7 +78,7 @@ To help learn your keymap, @omark96 made this tool that works on windows: https:
 ## Encoder customization
 
 Tweaking the encoder actions is supported in vial, but needs to be done in the keyboards/cheapino/encoder.c file for local qmk build, they are not part of the keymap.
-(you dont HAVE to be a progammer to change it, but you may call yourself a novice programmer once you do...)
+(you dont HAVE to be a programmer to change it, but you may call yourself a novice programmer once you do...)
 In the method called "turned", there are actions defined for multiple layers, this one is tweaked for my personal layer...
 The "else" section at line 26, will send page down for clockwise encoder turns, and page down for counter clockwise.
 The first if, line 20, sends volume up/down if you are on layer 6. 

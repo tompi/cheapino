@@ -1,4 +1,4 @@
-Miscellanous tips and tricks
+Miscellaneous tips and tricks
 ============================
 
 

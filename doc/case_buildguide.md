@@ -81,11 +81,11 @@ Place the PCB inside the case
 
 Flip it upside down   
 **Note:** i didn't use the case bottom, but if you did, set it in place at this point.
-insert the screws through the case bottom if youre using it, if not, just screw them in through the screw holes in the PCB.
+insert the screws through the case bottom if you're using it, if not, just screw them in through the screw holes in the PCB.
 ![image](gallery/case-build/10.png)
 ![image](gallery/case-build/11.png)
 
-Once this is done, flip back over and refit the switches and keycaps. As i mentioned, my printer isn't callibrated very well, so pushing the switches in took a LOT of force, but they did go in, and as a bonus, this means my switches have zero wobble.
+Once this is done, flip back over and refit the switches and keycaps. As i mentioned, my printer isn't calibrated very well, so pushing the switches in took a LOT of force, but they did go in, and as a bonus, this means my switches have zero wobble.
 It looked like this once i got all the switches and keycaps installed.
 ![image](gallery/case-build/12.png) 
 

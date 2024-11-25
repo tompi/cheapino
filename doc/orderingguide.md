@@ -7,7 +7,7 @@ You need to buy from at least 2 parties, the PCB needs
 to be custom made, the other parts can be ordered from any electronics supplier.
 
 I have a small amount of v2 PCBs, and components, so feel free to drop me
-a mail and ask for a qoute, I might be able to send you a kit pretty cheap.
+a mail and ask for a quote, I might be able to send you a kit pretty cheap.
 Its difficult to beat the chinese though, especially with shipping from Norway ;)
 
 
@@ -45,7 +45,7 @@ much, I know other people do, and it doesnt cost much extra).
 
 For a hotswap build(meaning you can replace switches without soldering),
 you need to order hotswap sockets, and you should probably use a plate, or a case,
-to keep swtiches from falling out accidentally. The old v1 plate will do, but 
+to keep switches from falling out accidentally. The old v1 plate will do, but 
 several people(including myself) are working on plates and cases. Stay tuned.
 
 Buying from AliExpress is a bit of an art in itself. You need to do your
