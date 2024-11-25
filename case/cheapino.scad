@@ -44,9 +44,9 @@ translate([0,0,1.6])
 color("pink")
 translate([0,0,5.1])
   linear_extrude(1.5)
-offset( delta=0.5)  
+offset( delta=0.5)
        base();
-       
+
 */
 
 module base_line_extruded (factor, extrusion)
