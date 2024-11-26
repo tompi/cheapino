@@ -5,14 +5,14 @@ Probably one of the cheapest split keyboards you can build.
 
 ![V2 in case](doc/gallery/cheapino-in-case-9.jpg)
 
-This is the result of really enjoying building keyboards, 
-but not wanting to spend that much money on it. 
-The pcb is reversible, connected using rj45, 
+This is the result of really enjoying building keyboards,
+but not wanting to spend that much money on it.
+The pcb is reversible, connected using rj45,
 and utilizes a japanese duplex matrix, so only one
 mcu is needed. For hotswap I recommend a case(pictured above),
 but soldering the switches is of course the cheapest option :)
 
-You want one? 
+You want one?
 See the [ordering guide](doc/orderingguide.md) for what you need and how to buy it.
 
 See the [build guide v2](doc/buildguide_v2.md) for more details and pictures of how to actually build it.

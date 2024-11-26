@@ -21,13 +21,13 @@ mirror()
       bottom();
         //translate([13,11,2.1])
         // magsafe_ring();
-         
+
         // The exported board from KiCad, for debug
         //translate([0,0,0])
         // board();
 
         switches(true);
-         
+
         diodes();
 
         rj45();

@@ -1,7 +1,7 @@
 3D-printed compact case
 =======================
 
-If you just want to make small adjustments and generate 
+If you just want to make small adjustments and generate
 your own version, install openscad, and open a scad file
 and press F6 to generate. Export->stl to get printable model.
 
@@ -18,7 +18,7 @@ increase "turn off rendering at" to 3 million.
 (this will enable multi-thread rendering and speed things
  up dramatically!)
 
-For the slicer, I did not do much experimenting... 
+For the slicer, I did not do much experimenting...
 Maybe somebody into 3D printing could help me out with
 the silicone bumper recesses: removing the supports in
 these holes is a pain...
