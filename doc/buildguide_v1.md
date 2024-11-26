@@ -47,7 +47,7 @@ In my experience it is easiest to solder the lowest components first, and the hi
 
 ### Step 1: Diodes
 
-You need to be careful to solder the diodes the correct way. The line on the diode should always be closest to the square pad of the footprint, NOT the round one. The PCB supports SMD and throug hole diodes, but since K16 is missing smd pads, I recommend using through hole(if you only have smd, you need to hack K16, not very hard, use a small piece of wire).
+You need to be careful to solder the diodes the correct way. The line on the diode should always be closest to the square pad of the footprint, NOT the round one. The PCB supports SMD and through hole diodes, but since K16 is missing smd pads, I recommend using through hole(if you only have smd, you need to hack K16, not very hard, use a small piece of wire).
 
 If you use through hole diodes and have sockets for the MCU, keep the legs you cut off and use them for socketing the MCU.
 

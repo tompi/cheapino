@@ -37,6 +37,7 @@ You need to be careful to solder the diodes the correct way.
 The line on the diode should always be closest to the square pad of the footprint,
 NOT the round one. The PCB supports SMD and throug hole diodes,
 and you can choose which side you want to mount them.
+
 I suggest mounting them on the top side, to keep height of board as low as possible.
 
 I like to solder from the component side, not the dangling legs side, but each to his own ;)

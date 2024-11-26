@@ -7,7 +7,7 @@ You need to buy from at least 2 parties, the PCB needs
 to be custom made, the other parts can be ordered from any electronics supplier.
 
 I have a small amount of v2 PCBs, and components, so feel free to drop me
-a mail and ask for a qoute, I might be able to send you a kit pretty cheap.
+a mail and ask for a quote, I might be able to send you a kit pretty cheap.
 Its difficult to beat the chinese though, especially with shipping from Norway ;)
 
 

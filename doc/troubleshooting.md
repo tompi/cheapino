@@ -54,7 +54,7 @@ If in doubt, just download from the release section and flash again.
 
 ## The keyboard/mcu is heating up really fast
 
-This can happen if there is a short between gnd and vcc. Check continuity and find the short, and fix it with som solder wick or a pump.
+This can happen if there is a short between gnd and vcc. Check continuity and find the short, and fix it with some solder wick or a pump.
 
 ## None of the above helped!
 
