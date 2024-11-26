@@ -8,6 +8,6 @@ module plate()
 {
 	import ("plate.svg", center=false);
 }
-      
+
 linear_extrude(1.6)
       plate();

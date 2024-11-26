@@ -18,7 +18,7 @@ Since the PCBs are the most expensive items, and you cant order less than 5 from
 
 Im not including switches and keycaps, since these are a matter of personal taste.
 You will need 36 switches and 1u(the regular letter sized) keycaps per set.
-This can easily be the most expensive 
+This can easily be the most expensive
 
 | Part         | Quantity | Where to get it | Estimated price (including shipping) |
 | ------------ | -------- | --------------- | --------------- |
@@ -57,13 +57,13 @@ Only the pins on the 2 long sides are actually used, but if you have the RP2040-
 
 #### Socket the MCU
 
-Socketing makes it easier to reuse the MCU(the RP2040-Zero) for another build later, or swap it if its broken or malfunctions. 
+Socketing makes it easier to reuse the MCU(the RP2040-Zero) for another build later, or swap it if its broken or malfunctions.
 
 If you have sockets for the MCU, mount them on a breadboard, or stick them in some cardboard to get them straight when mounting.
 
 ![Socketing 1](images/socket1.jpeg)
 
-Stick the clipped diode feet through the MCU, and down into the socket. Use a tool, or you will stick it into your fingers(been there, done that...). 
+Stick the clipped diode feet through the MCU, and down into the socket. Use a tool, or you will stick it into your fingers(been there, done that...).
 
 ![Socketing 2](images/socket2.jpeg)
 
@@ -79,7 +79,7 @@ Use the two longest yellow pin headers that come with the MCU: solder them to th
 
 ### Step 3: Install the Switches
 
-Next, it's time to install the switches. 
+Next, it's time to install the switches.
 This can be a bit tricky to get straight, since there is only 3 pin holes.
 Try to solder one column at a time, use something to align the switches, and tape them down before soldering.
 

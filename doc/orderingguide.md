@@ -22,7 +22,7 @@ You will need to upload the "gerbers" on the frontpage of jlcpcb.
 ![JLCPCB](images/orderingguide/jlcpcb.png)
 
 You should see a thumbnail of it afterwards. Defaults are fine, but you might consider
-lead free HASL(ca 1usd more expensive). 
+lead free HASL(ca 1usd more expensive).
 
 You probably want to consider a different color than the default green.
 This is completely up to you, there is no price difference, the only thing
@@ -45,7 +45,7 @@ much, I know other people do, and it doesnt cost much extra).
 
 For a hotswap build(meaning you can replace switches without soldering),
 you need to order hotswap sockets, and you should probably use a plate, or a case,
-to keep switches from falling out accidentally. The old v1 plate will do, but 
+to keep swtiches from falling out accidentally. The old v1 plate will do, but
 several people(including myself) are working on plates and cases. Stay tuned.
 
 Buying from AliExpress is a bit of an art in itself. You need to do your
@@ -56,7 +56,7 @@ of unserious actors.
 
 For my own part, I have good experience with the new "Choice" options,
 where you get free shipping on > 10usd orders. A few times I ordered
-none choice-options and had problems with VOEC clearance, so I had to pay 
+none choice-options and had problems with VOEC clearance, so I had to pay
 extra taxes and a clearance fee, and it took way longer to ship.
 
 These are the items I usually order:
@@ -106,7 +106,7 @@ blue clickys, and they ARE pleasant, but this is at home, and my wife is using s
 I have ordered these, and liked them: https://www.aliexpress.com/item/1005006270820565.html
 (Just tried the peach and silent cream, but have an order for the lemon ones in as well...)
 
-If you want cheap, 
+If you want cheap,
 
 You will need 36 switches per keyboard.
 ** NB: buy 5 pin switches!** One of the most important improvements of v2 of the Cheapino

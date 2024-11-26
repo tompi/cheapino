@@ -36,7 +36,7 @@ in the case for these, for future use:
 https://aliexpress.com/item/1005001658853871.html
 
 Once you printed all 4 parts of the case, you need to install the m2 heat inserts.
-You can insert them by using your soldering iron to heat them while applying gentle 
+You can insert them by using your soldering iron to heat them while applying gentle
 pressure and maybe press last 10% with a flat surface, to get a nice finish.
 Overly complicated explanation here:
 https://hackaday.com/2019/02/28/threading-3d-printed-parts-how-to-use-heat-set-inserts/
@@ -79,7 +79,7 @@ Place the PCB inside the case
 ![image](gallery/case-build/8.png)
 ![image](gallery/case-build/9.png)
 
-Flip it upside down   
+Flip it upside down
 **Note:** i didn't use the case bottom, but if you did, set it in place at this point.
 insert the screws through the case bottom if you're using it, if not, just screw them in through the screw holes in the PCB.
 ![image](gallery/case-build/10.png)
@@ -87,8 +87,8 @@ insert the screws through the case bottom if you're using it, if not, just screw
 
 Once this is done, flip back over and refit the switches and keycaps. As i mentioned, my printer isn't calibrated very well, so pushing the switches in took a LOT of force, but they did go in, and as a bonus, this means my switches have zero wobble.
 It looked like this once i got all the switches and keycaps installed.
-![image](gallery/case-build/12.png) 
+![image](gallery/case-build/12.png)
 
 Instead of using the case bottom, i just added some 3M dots as cusioning, and they work perfectly well for me.
-![image](gallery/case-build/13.png) 
+![image](gallery/case-build/13.png)
 

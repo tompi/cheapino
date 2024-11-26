@@ -4,7 +4,7 @@
 
 Welcome to the Cheapino Keyboard v2 Build Guide!
 In this guide, I will walk you through the steps to build your own custom keyboard using the Cheapino v2 kit.
-The Cheapino is a budget-friendly DIY split mechanical keyboard that is perfect for beginners who are looking 
+The Cheapino is a budget-friendly DIY split mechanical keyboard that is perfect for beginners who are looking
 to try their hand at building their own keyboard.
 
 I assume you read the [ordering guide](orderingguide.md) and have all the mandatory parts and tools.
@@ -26,24 +26,25 @@ Make sure you follow the PCB outline for the sockets(white lines),
 its very easy to solder them in the wrong direction(at least that
 is what I managed to do with more than half of them first time...)
 
-Just make sure to place them on the white outline, AND that 
+Just make sure to place them on the white outline, AND that
 the big switch hole is unobstructed.
 
 ![Hotswap](images/buildguidev2/hotswap.png)
 
 ### Step 2: Diodes
 
-You need to be careful to solder the diodes the correct way. 
-The line on the diode should always be closest to the square pad of the footprint, 
-NOT the round one. The PCB supports SMD and through hole diodes, 
-and you can choose which side you want to mount them. 
+You need to be careful to solder the diodes the correct way.
+The line on the diode should always be closest to the square pad of the footprint,
+NOT the round one. The PCB supports SMD and throug hole diodes,
+and you can choose which side you want to mount them.
+
 I suggest mounting them on the top side, to keep height of board as low as possible.
 
 I like to solder from the component side, not the dangling legs side, but each to his own ;)
 
 ![Diodes](images/buildguidev2/diodes.png)
 
-If you use through hole diodes and have sockets for the MCU, 
+If you use through hole diodes and have sockets for the MCU,
 keep the legs you cut off and use them for socketing the MCU.
 
 ![Diode legs](images/buildguidev2/diodes_legs.png)
@@ -72,7 +73,7 @@ Only the pins on the 2 long sides are actually used, but if you have the RP2040-
 
 #### Socket the MCU
 
-Socketing makes it easier to reuse the MCU(the RP2040-Zero) for another build later, or swap it if its broken or malfunctions. 
+Socketing makes it easier to reuse the MCU(the RP2040-Zero) for another build later, or swap it if its broken or malfunctions.
 
 NB: The cheap sockets linked from the ordering guide happily accepts diode legs, while the more "expensive"
 ones typically have larger holes, so for these you might wanna go with picking out the legs that came in the
@@ -82,7 +83,7 @@ If you have sockets for the MCU, mount them on a breadboard, or stick them in so
 
 ![Socketing 1](images/socket1.jpeg)
 
-Stick the clipped diode feet through the MCU, and down into the socket. Use a tool, or you will stick it into your fingers(been there, done that...). 
+Stick the clipped diode feet through the MCU, and down into the socket. Use a tool, or you will stick it into your fingers(been there, done that...).
 
 ![Socketing 2](images/socket2.jpeg)
 
@@ -98,7 +99,7 @@ Use the two longest yellow pin headers that come with the MCU: solder them to th
 
 ### Step 5: Install the Switches
 
-Next, it's time to install the switches. 
+Next, it's time to install the switches.
 Note: if you installed hotswap sockets you do NOT need to solder switches...
 If you only have 3 pin switches, refer to hints in the v1 build guide on how to align them.
 
@@ -123,11 +124,11 @@ Put the encoder in the footprint on the right side, make sure its flush to the P
 
 ### Step 8: Trim below and install bumpers
 
-Use the cutters to trim any extruding wires on the underside of the PCBs. 
+Use the cutters to trim any extruding wires on the underside of the PCBs.
 I havent done this with anything else than the encoder pins which I found to
 stick out a little extra.
 
-Maybe clip them inside a plastic bag to prevent the metal from flying around. 
+Maybe clip them inside a plastic bag to prevent the metal from flying around.
 
 Install rubber bumpers to protect your desk and keep the keyboard from moving.
 The v2 outline is a bit smaller than the v1, so be generous with the bumpers,

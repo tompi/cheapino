@@ -81,7 +81,7 @@ Tweaking the encoder actions is supported in vial, but needs to be done in the k
 (you dont HAVE to be a programmer to change it, but you may call yourself a novice programmer once you do...)
 In the method called "turned", there are actions defined for multiple layers, this one is tweaked for my personal layer...
 The "else" section at line 26, will send page down for clockwise encoder turns, and page down for counter clockwise.
-The first if, line 20, sends volume up/down if you are on layer 6. 
+The first if, line 20, sends volume up/down if you are on layer 6.
 
 The encoder push is defined to media pause/play in the "clicked" method on line 15.
 Feel free to remap it to different keys depending on layers, like the turns are done.
