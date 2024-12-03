@@ -60,3 +60,23 @@ rotate([0,180,0])
         square([30, 16.6]);
     }
 }
+
+// MCU cover
+translate([0,0,9.1])
+rotate([0,180,0])
+  color("gray") {
+    difference() {
+      // x = left/right, y = front/back
+      translate([29.5 - 2, 10.2 - 2, 4.1])
+        // +2 is for top cover
+        linear_extrude(mcu_height + 2)
+        // width = left/right, height = front/back
+        // Add thickness of 4. 2 left 2 right.
+        square([19.5 + 4, 25 + 2]);
+
+      // repeat the difference() for initial mcu cutout
+      translate([29.2, 10.2, 4.1])
+        linear_extrude(mcu_height)
+        square([19.5, 25]);
+    }
+}
