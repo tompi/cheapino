@@ -2,7 +2,7 @@
 pcb_thickness = 1.6;
 bottom_plate_thickness = 2.5;
 top_of_pcb = bottom_plate_thickness + pcb_thickness;
-
+rj45_height = 13;
 
 // bottom plate
 module bottom()
@@ -410,4 +410,3 @@ module mcu_cutout() {
         square([10, 20]);
     }
 }
-

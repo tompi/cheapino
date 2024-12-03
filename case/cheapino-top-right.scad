@@ -55,4 +55,24 @@ mirror() {
 
     mounting_hole_inserts();
   }
+
+  // RJ45 socket cover
+  color("purple") {
+    difference() {
+      // x = front/back, y = left/right
+      // -2 is thickness of the back cover
+      // -9.7 is the initial size of left/right
+      // 4.1 is the intial value of the PCB
+      translate([29.2 + (-2), -9.33 - 2, 4.1])
+        // +2 is for top cover
+        linear_extrude(rj45_height + 2)
+        // width = front/back, height = left/right
+        // Add thickness of 4. 2 left 2 right.
+        square([30 - 7, 16.6 + 4]);
+      // repeat the difference() for initial rj45
+      translate([29.2, -9.33, 4.1])
+        linear_extrude(rj45_height)
+        square([30, 16.6]);
+    }
+  }
 }
