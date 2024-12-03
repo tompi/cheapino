@@ -64,11 +64,10 @@ mirror() {
       // -9.7 is the initial size of left/right
       // 4.1 is the intial value of the PCB
       translate([29.2 + (-2), -9.33 - 2, 4.1])
-        // +2 is for top cover
-        linear_extrude(rj45_height + 2)
         // width = front/back, height = left/right
         // Add thickness of 4. 2 left 2 right.
-        square([30 - 7, 16.6 + 4]);
+        // +2 is for top cover
+        roundedcube([30 - 7, 16.6 + 4, rj45_height + 2], false, 0.5, "all");
       // repeat the difference() for initial rj45
       translate([29.2, -9.33, 4.1])
         linear_extrude(rj45_height)
