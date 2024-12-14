@@ -52,7 +52,7 @@ rotate([0,180,0])
         // width = front/back, height = left/right
         // Add thickness of 4. 2 left 2 right.
         // +2 is for top cover
-        roundedcube([30 - 7, 16.6 + 4, rj45_height + 2], false, 0.5, "all");
+        roundedcube([30 - 7, 16.6 + 4, rj45_height + 2], false, cover_radius, "all");
       // repeat the difference() for initial rj45
       translate([29.2, -10.6, 4.1])
         linear_extrude(rj45_height)
@@ -70,7 +70,7 @@ rotate([0,180,0])
         // width = left/right, height = front/back
         // Add thickness of 4. 2 left 2 right.
         // +2 is for top cover
-        roundedcube([19.5 + 4, 25 + 2, mcu_height + 2], false, 0.5, "all");
+        roundedcube([19.5 + 4, 25 + 2, mcu_height + 2], false, cover_radius, "all");
 
       // repeat the difference() for initial mcu cutout
       translate([29.2, 10.2, 4.1])
