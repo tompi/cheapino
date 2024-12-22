@@ -1,3 +1,5 @@
+include <../modules.scad>
+
 mcu_width = 20.5;
 mcu_length = 45;
 mcu_offset_x = 29;
@@ -39,4 +41,26 @@ module power_switch_cutout() {
 }
 
 
+module case_top(step) {
+  // Rotate so you dont need to do that in extruder
+  translate([0,0,9.1])
+  rotate([0,180,0])
+  difference() {
+    case(step);
+    linear_extrude(4.1) offset(delta=0.45) base();
 
+    // For debug: comment out above 5 lines and comment in this
+    //translate([0,0,4.1]) 
+    //      board();
+
+    translate([0,0,top_of_pcb]) switch_holes();
+
+    translate([0, 0, top_of_pcb]) diodes();
+
+    mcu_wireless_cutout();
+
+    power_switch_cutout();
+
+    mounting_hole_inserts();
+  }
+}

@@ -1,16 +1,13 @@
-height = 95.1738;
-width = 132.6134;
-step = 0.06;
-$fn=50;
+$fn = $preview ? 5 : 50;
+step = $preview ? 0.5 : 0.05;
 
-height_translation = 0;
 include <modules.scad>
 
 // Rotate so you dont need to do that in extruder
 translate([0,0,9.1])
 rotate([0,180,0])
 difference() {
-  case();
+  case(step);
   linear_extrude(4.1) offset(delta=0.45) base();
 
   // For debug: comment out above 3 lines and comment in this

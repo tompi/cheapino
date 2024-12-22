@@ -1,4 +1,4 @@
-//$fn=50;
+$fn = $preview ? 5 : 50;
 pcb_thickness = 1.6;
 bottom_plate_thickness = 2.5;
 top_of_pcb = bottom_plate_thickness + pcb_thickness;
@@ -42,7 +42,7 @@ module hotswap_mx() {
 
     // Body
     linear_extrude(height=thickness)
-    square([11.1,4.2], center=true);
+    square([11.6,4.6], center=true);
 
     translate([0,1.9,0])
     linear_extrude(height=thickness)
@@ -303,7 +303,7 @@ module mounting_holes() {
 //
 // The case only adds 0.7mm extra height
 // to the keyboard.
-module case() {
+module case(step) {
     color("red")
     for (i = [0:step:8.1])
     {

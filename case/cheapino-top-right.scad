@@ -1,9 +1,6 @@
-height = 95.1738;
-width = 132.6134;
-step = 0.06;
-$fn=50;
+$fn = $preview ? 5 : 50;
+step = $preview ? 0.5 : 0.05;
 
-height_translation = 0;
 include <modules.scad>
 
 
@@ -12,7 +9,7 @@ translate([0,0,9.1])
 rotate([0,180,0])
 mirror() {
   difference() {
-    case();
+    case(step);
     linear_extrude(4.1) offset(delta=0.45) base();
 
     // holes and shape for debug
