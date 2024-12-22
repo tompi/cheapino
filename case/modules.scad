@@ -42,7 +42,7 @@ module hotswap_mx() {
 
     // Body
     linear_extrude(height=thickness)
-    square([11.1,4.2], center=true);
+    square([11.6,4.6], center=true);
 
     translate([0,1.9,0])
     linear_extrude(height=thickness)
