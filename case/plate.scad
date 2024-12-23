@@ -1,5 +1,5 @@
 
-$fn=100;
+$fn = $preview ? 10 : 100;
 
 height_translation = 0;
 

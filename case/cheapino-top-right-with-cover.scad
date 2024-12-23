@@ -51,3 +51,24 @@ difference() {
 
   mounting_hole_inserts();
 }
+
+// RJ45 socket cover
+color("purple") {
+  difference() {
+    // x = front/back, y = left/right, z = top/down
+    // -0.8 is thickness of the back cover
+    // -9.33 is the initial size of left/right
+    // 8.1 is the intial value of the PCB
+    translate([29.2 + (-0.8), -9.33 - 2, 8.1])
+      // width = front/back, depth = left/right, height = top cover
+      // Add thickness of 4. 2 left 2 right.
+      // (reset mcu_height) + 2 is for top cover thickness
+      roundedcube([30 - 8, 16.6 + 4, (rj45_height - 4.1) + 2], false, cover_radius, "xmax");
+
+    // To craete a hole, repeat the difference() for initial rj45
+    translate([29.2, -9.33, 8.1])
+      // 0.5 for tolerance
+      linear_extrude((rj45_height - 4.1) + 0.5)
+      square([30, 16.6]);
+  }
+}
