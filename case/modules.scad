@@ -174,10 +174,10 @@ module mcu() {
 module mounting_hole() {
     color("#bcbd22")
     translate([45.85, -23, 0]) {
-      cylinder(h=1.5, r1=1, r2=2);
+      cylinder(h=1.5, r1=1, r2=2.2);
 
       translate([0,0,1.5])
-      cylinder(h=4, r=2);
+      cylinder(h=4, r=2.2);
     }
 }
 
