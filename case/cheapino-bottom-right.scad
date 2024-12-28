@@ -1,4 +1,4 @@
-use <./modules.scad>
+use <modules.scad>
 
 // height = 95.1738;
 // width = 132.6134;
