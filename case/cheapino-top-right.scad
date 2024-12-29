@@ -39,7 +39,7 @@ mirror() {
     color("pink") {
         translate([32.75, 16.5, 4.1])
         linear_extrude(10)
-        square(13);
+        square([13, 14.6]);
 
         translate([32.2, 15, 4.1])
         linear_extrude(3)
