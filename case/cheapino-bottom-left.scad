@@ -10,7 +10,7 @@ step = 0.05;
 // 2.5 will leave 0.35 at the thinnest(between hotswap and magsafe).
 
 
-$fn=50;
+$fn = $preview ? 10 : 50;
 
 // Rotate so you dont need to do that in extruder
 translate([0,0,2.5])
