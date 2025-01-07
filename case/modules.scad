@@ -141,14 +141,17 @@ module rj_pin_hole() {
 }
 
 module encoder() {
-    color("#7f7f7f")
+    color("#7f7f00")
     linear_extrude(0.6) {
-        translate([35.7, 29.8])
-        square([7,2]);
         translate([32.65, 21.6])
         square([2, 3.3]);
         translate([43.85, 21.6])
         square([2, 3.3]);
+    }
+    color("#7f0000")
+    linear_extrude(1) {
+        translate([35.7, 29.8])
+        square([7,2]);
         translate([36.8, 16.3])
         circle(d=2);
         translate([41.77, 16.3])
