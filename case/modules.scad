@@ -42,11 +42,11 @@ module hotswap_mx() {
 
     // Body
     linear_extrude(height=thickness)
-    square([11.6,4.6], center=true);
+    square([11.8,5.2], center=true);
 
     translate([0,1.9,0])
     linear_extrude(height=thickness)
-    square([5.65, 2.09]);
+    square([5.65, 2.39]);
 
     // Metal soldering parts
     translate([5.45,1.04,0])

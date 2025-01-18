@@ -2,7 +2,7 @@ use <modules.scad>
 
 // height = 95.1738;
 // width = 132.6134;
-step = 0.05;
+step = 0.04;
 //$fn=30;
 
 // hotswap socket is ~1.75 high at the highest.
