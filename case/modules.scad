@@ -42,11 +42,11 @@ module hotswap_mx() {
 
     // Body
     linear_extrude(height=thickness)
-    square([11.6,4.6], center=true);
+    square([11.8,5.2], center=true);
 
     translate([0,1.9,0])
     linear_extrude(height=thickness)
-    square([5.65, 2.09]);
+    square([5.65, 2.39]);
 
     // Metal soldering parts
     translate([5.45,1.04,0])
@@ -141,14 +141,17 @@ module rj_pin_hole() {
 }
 
 module encoder() {
-    color("#7f7f7f")
+    color("#7f7f00")
     linear_extrude(0.6) {
-        translate([35.7, 29.8])
-        square([7,2]);
         translate([32.65, 21.6])
         square([2, 3.3]);
         translate([43.85, 21.6])
         square([2, 3.3]);
+    }
+    color("#7f0000")
+    linear_extrude(1) {
+        translate([35.7, 29.8])
+        square([7,2]);
         translate([36.8, 16.3])
         circle(d=2);
         translate([41.77, 16.3])
@@ -174,10 +177,10 @@ module mcu() {
 module mounting_hole() {
     color("#bcbd22")
     translate([45.85, -23, 0]) {
-      cylinder(h=1.5, r1=1, r2=2);
+      cylinder(h=1.5, r1=1, r2=2.2);
 
       translate([0,0,1.5])
-      cylinder(h=4, r=2);
+      cylinder(h=4, r=2.2);
     }
 }
 
