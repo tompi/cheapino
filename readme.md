@@ -28,3 +28,8 @@ Even the onboard RP2040-Zero LED is controllable by QMK...
 I added [a few tips and tricks here](doc/tips.md).
 
 [Loads of beautiful build pictures here.](doc/gallery.md)
+
+# License
+
+This work is licensed under a Creative Commons Attribution license:
+https://creativecommons.org/licenses/by/4.0/
