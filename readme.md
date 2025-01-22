@@ -31,5 +31,4 @@ I added [a few tips and tricks here](doc/tips.md).
 
 # License
 
-This work is licensed under a Creative Commons Attribution license:
-https://creativecommons.org/licenses/by/4.0/
+This work is licensed under a [Creative Commons Attribution license.](LICENSE.txt)
