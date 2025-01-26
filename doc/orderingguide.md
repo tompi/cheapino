@@ -65,7 +65,7 @@ These are the items I usually order:
 | --------------------|------------------------:|-------------------------:|--------------|----:|-----|
 | RP2040-Zero     |                        1|                         1|Choose the version without header(The pre-soldered headers can be a very tight fit...), and buy some sockets, its worth it!     |1.78 | https://www.aliexpress.com/item/1005004281549886.html |
 | RJ45 Sockets (8P8C) |                        2|                        10||2.37 | https://www.aliexpress.com/item/32902228456.html |
-| Diodes 1N4148   |                       42|                       100|You can also ordes smb if you want. Smaller but more difficult to solder: https://www.aliexpress.com/item/4000685043735.html              |1.02 | https://www.aliexpress.com/item/32660088529.html |
+| Diodes 1N4148   |                       42|                       50|You can also ordes smb if you want. Smaller but more difficult to solder: https://www.aliexpress.com/item/4000685043735.html              |0.74 | https://www.aliexpress.com/item/1005006245109375.html |
 | EC11 Encoder        |                        1|                         5|              |2.68 | https://www.aliexpress.com/item/1005004907970664.html |
 | Encoder knob    |                        1|                         5| A much better looking(and more expensive) knob: https://www.aliexpress.com/item/32749281108.html              |1.35 | https://www.aliexpress.com/item/1005004907970664.html |
 
@@ -75,7 +75,7 @@ These are the items I really recommend in addition:
 
 | Part                | Quantity for 1 keyboard | Quantity in sold package | Notes |Price (USD)  | Url |
 | --------------------|------------------------:|-------------------------:|------|-------:|-----|
-| Sockets for MCU |                        1|                          5|   Choose the single row silver plated(cheapest...). These are lower profile, and easier to solder straight, but more expensive(one downside is diode legs do not work, this socket needs more sturdy pins, so use the pins that comes with the rp2040-zero, even though they are more difficult to clip and also get out of the header they are in...): https://www.aliexpress.com/item/1005006248653180.html (9P PH3.5 Female Header). Socketing is a long term choice: you can reuse mcu for another build, or more   importantly replace it easily if it breaks.   |   2.01 | https://www.aliexpress.com/item/4001122376295.html |
+| Sockets for MCU |                        1|                          5|   Choose the single row silver plated(cheapest...). Socketing has multiple advantages: you can reuse mcu for another build, or more   importantly replace it easily if it breaks. It also makes it easier to debug a faulty build.  |   2.01 | https://www.aliexpress.com/item/4001122376295.html |
 | Silicone bumpers|                      ~20|                        100| 5 mm wide and 2 mm high is fine. If you know you will only use the keyboard on a mat or with a case, you might not need this, otherwise you   want them.     |   1.65 | https://www.aliexpress.com/item/1005005592713123.html |
 | Hotswap sockets |                       36|                         40| You want the mx one, NOT the low profile | 3.04 | https://www.aliexpress.com/item/1005006610157756.html |
 
