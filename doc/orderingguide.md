@@ -90,7 +90,7 @@ These are some nifty items I really like, but not necessary:
 | Flexible cat6 cable |                        1|                         1|    0.5m is perfect in my experience. Regular network cables are often very long and rigid.     |0.84 | https://www.aliexpress.com/item/1005002518783703.html |
 | Magnetic USB cable  |                        1|                         1| You can buy any brand, but make sure its not charging only, check the picture for 4+ contact points. I use these for all my boards, the usb   port of the mcu is the first thing that will wear out if you dont use this. Make sure you get both cable+plug, and chose the usb c type. NB: These magnetic cables are not made to the usb-c spec, use at your own risk:
 https://www.reddit.com/r/UsbCHardware/comments/motlhn/magnetic_usbc_cables_are_not_recommended/ (I have not heard of any problems personally, and I suspect its more of a higher voltage problem, but not my field of expertise...)        |2.22 | https://www.aliexpress.com/item/1005003776565766.html |
-| Carrying case       |                        1|                         1| This case fits pretty snugly: 15x11x4,5cm. Nice to have if you are travelling!        |2.12 | https://www.aliexpress.com/item/1005006381237074.html |
+| Carrying case       |                        1|                         1| This case fits pretty snugly: 15x11x4,5cm (might depress switches, choose 17x12x5 for more space). Nice to have if you are travelling!        |2.12 | https://www.aliexpress.com/item/1005006381237074.html |
 
 These cables are really good looking: https://www.aliexpress.com/item/1005006190874241.html
 Pictures of them in action here: https://www.reddit.com/r/ErgoMechKeyboards/comments/1bz4lse/my_first_build_the_cheapino_v2/
