@@ -83,6 +83,7 @@ Its very easy to underestimate the advantage of socketing the MCU. Think of it a
 problem is on the pcb or the mcu, by removing the mcu...
 
 These are some nifty items I really like, but not necessary:
+(Warning: some cheap magnetic usb c cables might fry your rp2040-zero... Check this issue for more info: https://github.com/tompi/cheapino/issues/130 )
 
 | Part                    | Quantity for 1 keyboard | Quantity in sold package | Notes |Price (USD)  | Url |
 | ------------------------|------------------------:|-------------------------:|-------|------:|-----|
