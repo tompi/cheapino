@@ -3,6 +3,10 @@ Cheapino gallery
 
 Send me a picture of your Cheapino!
 
+![V2](gallery/24.jpg)
+![V2](gallery/25.jpg)
+![V2](gallery/26.jpg)
+![V2](gallery/27.png)
 ![V2 in case](gallery/cheapino-in-case-8.jpg)
 ![V2 in case](gallery/cheapino-in-case-10.jpg)
 ![V2 in case](gallery/cheapino-in-case-9.jpg)
