@@ -610,11 +610,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "61c0f91b-b2a4-4777-ab49-062becc2c1f8",
-      "Root"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
