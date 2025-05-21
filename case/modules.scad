@@ -3,7 +3,6 @@ pcb_thickness = 1.6;
 bottom_plate_thickness = 2.5;
 top_of_pcb = bottom_plate_thickness + pcb_thickness;
 
-
 // bottom plate
 module bottom()
 {
@@ -44,10 +43,15 @@ module hotswap_mx() {
     linear_extrude(height=thickness)
     square([11.8,5.2], center=true);
 
-    translate([0,1.9,0])
+    translate([0,2,0])
     linear_extrude(height=thickness)
     square([5.65, 2.39]);
 
+    translate([-5.9,-3,0])
+    linear_extrude(height=thickness)
+    square([5.65, 2.39]);
+
+    
     // Metal soldering parts
     translate([5.45,1.04,0])
     linear_extrude(height=thickness)

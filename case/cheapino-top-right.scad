@@ -37,11 +37,11 @@ mirror() {
 
     // EC11 encoder
     color("pink") {
-        translate([32.75, 16.5, 4.1])
+        translate([32.75, 15.5, 4.1])
         linear_extrude(10)
         square([13, 14.6]);
 
-        translate([32.2, 15, 4.1])
+        translate([32.2, 14, 4.1])
         linear_extrude(3)
         square([14.2, 17.5]);
     }
