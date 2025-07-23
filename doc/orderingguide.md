@@ -48,6 +48,11 @@ you need to order hotswap sockets, and you should probably use a plate, or a cas
 to keep swtiches from falling out accidentally. The old v1 plate will do, but
 several people(including myself) are working on plates and cases. Stay tuned.
 
+The white lines on the PCB are where components will go. You should cross-reference
+this blueprint with images and dimensions of advertised parts. The ones linked below
+should be fine, but it's good to double check to avoid the pain of re-ordering parts. 
+You can check the PCB blueprint with software, and by skipping ahead to the build guide. 
+
 Buying from AliExpress is a bit of an art in itself. You need to do your
 due diligence and check reviews and ratings of the store. If an item is priced
 significantly lower than other places, without many sales or reviews, you
@@ -64,7 +69,7 @@ These are the items I usually order:
 | Part                | Quantity for 1 keyboard | Quantity in sold package | Notes        |Price (USD)  | Url |
 | --------------------|------------------------:|-------------------------:|--------------|----:|-----|
 | RP2040-Zero     |                        1|                         1|Choose the version without header(The pre-soldered headers can be a very tight fit...), and buy some sockets, its worth it!     |1.78 | https://www.aliexpress.com/item/1005004281549886.html |
-| RJ45 Sockets (8P8C) |                        2|                        10||2.37 | https://www.aliexpress.com/item/32902228456.html |
+| RJ45 Sockets (8P8C) |                        2|                        10|Make sure the pins are at the back of the socket (see PCB blueprint). |2.37 | https://www.aliexpress.com/item/32902228456.html |
 | Diodes 1N4148   |                       42|                       50|You can also ordes smb if you want. Smaller but more difficult to solder: https://www.aliexpress.com/item/4000685043735.html              |0.74 | https://www.aliexpress.com/item/1005006245109375.html |
 | EC11 Encoder        |                        1|                         5|              |2.68 | https://www.aliexpress.com/item/1005004907970664.html |
 | Encoder knob    |                        1|                         5| A much better looking(and more expensive) knob: https://www.aliexpress.com/item/32749281108.html              |1.35 | https://www.aliexpress.com/item/1005004907970664.html |
