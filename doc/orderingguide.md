@@ -138,13 +138,15 @@ Here are the tools you will need:
 - Solder
 - Diagonal cutters
 
-Nice to have:
+Essential for beginners:
 
-- Safety goggles(you dont want solder or cut off diode legs in your eyes)
-- Flux
-- Solder wick(for when you applied too much solder: apply some flux to it first)
-- Cleaning ball for solder iron(made from copper wire) and sponge: for tip maintenance
+- **Flux** (crucial for clean solder joints, especially on tiny MCU pins)
+- Safety goggles (you don't want solder or cut off diode legs in your eyes)
+- Solder wick (for when you applied too much solder: apply some flux to it first)
+- Cleaning ball for solder iron (made from copper wire) and sponge: for tip maintenance
 - Helping hands: to hold the PCB up from the desk while soldering diodes
+
+**Soldering Iron Recommendation**: The KSGER T12 mentioned above is excellent for beginners - it has precise temperature control and heats up quickly. Use a chisel tip (like T12-K or T12-BC2) for most components, and a fine conical tip (T12-I) only for the tiniest MCU pins.
 
 Send me any tips you have!
 
