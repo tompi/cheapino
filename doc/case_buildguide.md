@@ -33,6 +33,8 @@ https://aliexpress.com/item/1005006256285165.html
 Which you can use with stands to get any angle that suits you:
 https://aliexpress.com/item/1005006349287185.html
 
+Note: The item mentioned above is not available in all countries, but any stand with mag-safe connector and a bit heavy base should work.
+
 ![Tenting](gallery/case.jpg)
 
 Im also planning to design some snap-on feet, and there are compartments
