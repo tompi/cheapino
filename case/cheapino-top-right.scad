@@ -1,6 +1,6 @@
 height = 95.1738;
 width = 132.6134;
-step = 0.06;
+step = 0.04;
 $fn = $preview ? 10 : 50;
 
 height_translation = 0;
@@ -37,11 +37,11 @@ mirror() {
 
     // EC11 encoder
     color("pink") {
-        translate([32.75, 16.5, 4.1])
+        translate([32.75, 15.5, 4.1])
         linear_extrude(10)
         square([13, 14.6]);
 
-        translate([32.2, 15, 4.1])
+        translate([32.2, 14, 4.1])
         linear_extrude(3)
         square([14.2, 17.5]);
     }

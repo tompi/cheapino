@@ -2,7 +2,7 @@ use <modules.scad>
 
 // height = 95.1738;
 // width = 132.6134;
-step = 0.05;
+step = 0.04;
 
 // hotswap socket is ~1.75 high at the highest.
 // magsafe ring is 0.4 high
@@ -38,7 +38,7 @@ mirror()
         mounting_holes();
 
         // Inserts for silicone bumpers
-        bumper();
+        translate([0, -5, 0]) bumper();
         translate([0, -46, 0]) bumper();
         translate([13, -61.5, 0]) bumper();
         translate([-29.5, -54.6, 0]) bumper();
