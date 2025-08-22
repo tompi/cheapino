@@ -18,6 +18,10 @@ You will also need 18 m2 heat brass insert nuts, 4mm long and 3mm outer diameter
 along with 18 m2 screws, around 5mm long, preferably counter sunk head, since the case
 has counter sunk cutouts for the head.
 
+**⚠️ IMPORTANT WARNING:** Do not use resin SLA printing for the case when using heat inserts. 
+Resin degrades rather than melts when heated, making it incompatible with heat insert installation. 
+Use FDM printing (PLA, PETG, ABS, etc.) for proper heat insert compatibility.
+
 These are the items I ordered for my builds:
 https://aliexpress.com/item/1005006939497014.html (M2X5 (200pcs) $2.61)
 https://aliexpress.com/item/1005006071488810.html (M2xL4xOD3 (50PCS) $2.70)
