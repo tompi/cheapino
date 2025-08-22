@@ -1,4 +1,4 @@
-//$fn=50;
+$fn = $preview ? 10 : 50;
 
 module hotswap_mx() {
 thickness=1.85;

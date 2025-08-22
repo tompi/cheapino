@@ -1,7 +1,7 @@
 height = 95.1738;
 width = 132.6134;
 step = 0.04;
-$fn=50;
+$fn = $preview ? 10 : 50;
 
 height_translation = 0;
 include <modules.scad>
