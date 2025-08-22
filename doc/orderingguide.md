@@ -48,10 +48,8 @@ you need to order hotswap sockets, and you should probably use a plate, or a cas
 to keep swtiches from falling out accidentally. The old v1 plate will do, but
 several people(including myself) are working on plates and cases. Stay tuned.
 
-The white lines on the PCB are where components will go. You should cross-reference
-this blueprint with images and dimensions of advertised parts. The ones linked below
-should be fine, but it's good to double check to avoid the pain of re-ordering parts. 
-You can check the PCB blueprint with software, and by skipping ahead to the build guide. 
+Some AliExpress components may not fit properly. If you want to be 100% sure, 
+you can check the PCB with KiCad.
 
 Buying from AliExpress is a bit of an art in itself. You need to do your
 due diligence and check reviews and ratings of the store. If an item is priced
