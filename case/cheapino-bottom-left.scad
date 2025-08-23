@@ -2,15 +2,14 @@ use <modules.scad>
 
 // height = 95.1738;
 // width = 132.6134;
-step = 0.05;
-//$fn=30;
+step = 0.04;
 
 // hotswap socket is ~1.75 high at the highest.
 // magsafe ring is 0.4 high
 // 2.5 will leave 0.35 at the thinnest(between hotswap and magsafe).
 
 
-$fn=50;
+$fn = $preview ? 10 : 50;
 
 // Rotate so you dont need to do that in extruder
 translate([0,0,2.5])
@@ -39,7 +38,7 @@ mirror()
         mounting_holes();
 
         // Inserts for silicone bumpers
-        bumper();
+        translate([0, -5, 0]) bumper();
         translate([0, -46, 0]) bumper();
         translate([13, -61.5, 0]) bumper();
         translate([-29.5, -54.6, 0]) bumper();

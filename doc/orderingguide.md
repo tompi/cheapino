@@ -48,6 +48,9 @@ you need to order hotswap sockets, and you should probably use a plate, or a cas
 to keep swtiches from falling out accidentally. The old v1 plate will do, but
 several people(including myself) are working on plates and cases. Stay tuned.
 
+Some AliExpress components may not fit properly. If you want to be 100% sure, 
+you can check the PCB with KiCad.
+
 Buying from AliExpress is a bit of an art in itself. You need to do your
 due diligence and check reviews and ratings of the store. If an item is priced
 significantly lower than other places, without many sales or reviews, you
@@ -63,9 +66,9 @@ These are the items I usually order:
 
 | Part                | Quantity for 1 keyboard | Quantity in sold package | Notes        |Price (USD)  | Url |
 | --------------------|------------------------:|-------------------------:|--------------|----:|-----|
-| RP2040-Zero     |                        1|                         1|Choose the version without header(The pre-soldered headers can be a very tight fit...), and buy some sockets, its worth it!     |1.78 | https://www.aliexpress.com/item/1005004281549886.html |
-| RJ45 Sockets (8P8C) |                        2|                        10||2.37 | https://www.aliexpress.com/item/32902228456.html |
-| Diodes 1N4148   |                       42|                       100|You can also ordes smb if you want. Smaller but more difficult to solder: https://www.aliexpress.com/item/4000685043735.html              |1.02 | https://www.aliexpress.com/item/32660088529.html |
+| RP2040-Zero     |                        1|                         1|Choose the version without header(The pre-soldered headers can be a very tight fit...), and buy some sockets, its worth it!     |1.78 | https://www.aliexpress.com/item/1005007763998604.html or https://www.aliexpress.com/item/1005007650325892.html |
+| RJ45 Sockets (8P8C) |                        2|                        10|Make sure the pins are at the back of the socket (see PCB blueprint). |2.37 | https://www.aliexpress.com/item/32902228456.html |
+| Diodes 1N4148   |                       42|                       50|You can also ordes smb if you want. Smaller but more difficult to solder: https://www.aliexpress.com/item/4000685043735.html              |0.74 | https://www.aliexpress.com/item/1005006245109375.html |
 | EC11 Encoder        |                        1|                         5|              |2.68 | https://www.aliexpress.com/item/1005004907970664.html |
 | Encoder knob    |                        1|                         5| A much better looking(and more expensive) knob: https://www.aliexpress.com/item/32749281108.html              |1.35 | https://www.aliexpress.com/item/1005004907970664.html |
 
@@ -75,7 +78,7 @@ These are the items I really recommend in addition:
 
 | Part                | Quantity for 1 keyboard | Quantity in sold package | Notes |Price (USD)  | Url |
 | --------------------|------------------------:|-------------------------:|------|-------:|-----|
-| Sockets for MCU |                        1|                          5|   Choose the single row silver plated(cheapest...). These are lower profile, and easier to solder straight, but more expensive(one downside is diode legs do not work, this socket needs more sturdy pins, so use the pins that comes with the rp2040-zero, even though they are more difficult to clip and also get out of the header they are in...): https://www.aliexpress.com/item/1005006248653180.html (9P PH3.5 Female Header). Socketing is a long term choice: you can reuse mcu for another build, or more   importantly replace it easily if it breaks.   |   2.01 | https://www.aliexpress.com/item/4001122376295.html |
+| Sockets for MCU |                        1|                          5|   Choose the single row silver plated(cheapest...). Socketing has multiple advantages: you can reuse mcu for another build, or more   importantly replace it easily if it breaks. It also makes it easier to debug a faulty build.  |   2.01 | https://www.aliexpress.com/item/4001122376295.html |
 | Silicone bumpers|                      ~20|                        100| 5 mm wide and 2 mm high is fine. If you know you will only use the keyboard on a mat or with a case, you might not need this, otherwise you   want them.     |   1.65 | https://www.aliexpress.com/item/1005005592713123.html |
 | Hotswap sockets |                       36|                         40| You want the mx one, NOT the low profile | 3.04 | https://www.aliexpress.com/item/1005006610157756.html |
 
@@ -83,13 +86,14 @@ Its very easy to underestimate the advantage of socketing the MCU. Think of it a
 problem is on the pcb or the mcu, by removing the mcu...
 
 These are some nifty items I really like, but not necessary:
+(Warning: some cheap magnetic usb c cables might fry your rp2040-zero... Check this issue for more info: https://github.com/tompi/cheapino/issues/130 )
 
 | Part                    | Quantity for 1 keyboard | Quantity in sold package | Notes |Price (USD)  | Url |
 | ------------------------|------------------------:|-------------------------:|-------|------:|-----|
 | Flexible cat6 cable |                        1|                         1|    0.5m is perfect in my experience. Regular network cables are often very long and rigid.     |0.84 | https://www.aliexpress.com/item/1005002518783703.html |
 | Magnetic USB cable  |                        1|                         1| You can buy any brand, but make sure its not charging only, check the picture for 4+ contact points. I use these for all my boards, the usb   port of the mcu is the first thing that will wear out if you dont use this. Make sure you get both cable+plug, and chose the usb c type. NB: These magnetic cables are not made to the usb-c spec, use at your own risk:
 https://www.reddit.com/r/UsbCHardware/comments/motlhn/magnetic_usbc_cables_are_not_recommended/ (I have not heard of any problems personally, and I suspect its more of a higher voltage problem, but not my field of expertise...)        |2.22 | https://www.aliexpress.com/item/1005003776565766.html |
-| Carrying case       |                        1|                         1| This case fits pretty snugly: 15x11x4,5cm. Nice to have if you are travelling!        |2.12 | https://www.aliexpress.com/item/1005006381237074.html |
+| Carrying case       |                        1|                         1| This case fits pretty snugly: 15x11x4,5cm (might depress switches, choose 17x12x5 for more space). Nice to have if you are travelling!        |2.12 | https://www.aliexpress.com/item/1005006381237074.html |
 
 These cables are really good looking: https://www.aliexpress.com/item/1005006190874241.html
 Pictures of them in action here: https://www.reddit.com/r/ErgoMechKeyboards/comments/1bz4lse/my_first_build_the_cheapino_v2/
@@ -137,13 +141,15 @@ Here are the tools you will need:
 - Solder
 - Diagonal cutters
 
-Nice to have:
+Essential for beginners:
 
-- Safety goggles(you dont want solder or cut off diode legs in your eyes)
-- Flux
-- Solder wick(for when you applied too much solder: apply some flux to it first)
-- Cleaning ball for solder iron(made from copper wire) and sponge: for tip maintenance
+- **Flux** (crucial for clean solder joints, especially on tiny MCU pins)
+- Safety goggles (you don't want solder or cut off diode legs in your eyes)
+- Solder wick (for when you applied too much solder: apply some flux to it first)
+- Cleaning ball for solder iron (made from copper wire) and sponge: for tip maintenance
 - Helping hands: to hold the PCB up from the desk while soldering diodes
+
+**Soldering Iron Recommendation**: The KSGER T12 mentioned above is excellent for beginners - it has precise temperature control and heats up quickly. Use a chisel tip (like T12-K or T12-BC2) for most components, and a fine conical tip (T12-I) only for the tiniest MCU pins.
 
 Send me any tips you have!
 

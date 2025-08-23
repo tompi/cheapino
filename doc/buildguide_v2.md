@@ -16,7 +16,11 @@ https://www.circuitspecialists.com/blog/how-to-soldering-correctly-soldering-101
 
 ## Steps
 
-In my experience it is easiest to solder the lowest components first, and the highest last, since you need to turn the PCB around with the components on the other side when soldering(and then you want the loose ones to rest directly at the desk). Thats why I suggest starting with the diodes, then the MCU, the switches, the RJ45 socket and lastly the encoder.
+In my experience it is easiest to solder the lowest components first, and the highest last, since you need to turn the PCB around with the components on the other side when soldering(and then you want the loose ones to rest directly at the desk). 
+
+**Build order recommendation**: Some experienced builders suggest doing hotswap sockets first (if using them) since they're easier to access before other components are installed. The general order would be: hotswap sockets, diodes, bridge pads (right side), MCU, switches, RJ45 socket, and lastly the encoder.
+
+**Important for beginners**: Take your time with the MCU - those pins are tiny! Use flux liberally, work slowly, and clean your iron tip frequently. If you're new to soldering, consider practicing on some spare components first.
 
 ### Step 1: Hotswap sockets
 
