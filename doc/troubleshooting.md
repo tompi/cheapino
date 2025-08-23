@@ -37,6 +37,13 @@ Check that the pins of your rp2040-zero are all soldered ok. There should not be
 
 Check your soldering on both MCU and the RJ45 sockets. If there are any shorts, try sucking up some solder with e.g. some solder wick or your solder sucker.
 
+### Magnetic usb c cable frying the MCU
+
+There have been reports of magnetic cables frying the MCU, some details here:
+https://github.com/tompi/cheapino/issues/130
+
+TLDR: If your computer complains about "The USB port is drawing too much power", you should inspect the magnetic cable, and consider swapping it out before something bad happens...
+
 ### Ethernet crossover cable
 
 Not all ethernet cables are the same... There are different variants more or less rare, for different purposes. The most common which will create problems for the cheapino is the crossover cable: https://en.wikipedia.org/wiki/Ethernet_crossover_cable

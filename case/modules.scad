@@ -1,4 +1,3 @@
-//$fn=50;
 pcb_thickness = 1.6;
 bottom_plate_thickness = 2.5;
 top_of_pcb = bottom_plate_thickness + pcb_thickness;
@@ -45,12 +44,17 @@ module hotswap_mx() {
 
     // Body
     linear_extrude(height=thickness)
-    square([11.6,4.6], center=true);
+    square([11.8,5.2], center=true);
 
-    translate([0,1.9,0])
+    translate([0,2,0])
     linear_extrude(height=thickness)
-    square([5.65, 2.09]);
+    square([5.65, 2.39]);
 
+    translate([-5.9,-3,0])
+    linear_extrude(height=thickness)
+    square([5.65, 2.39]);
+
+    
     // Metal soldering parts
     translate([5.45,1.04,0])
     linear_extrude(height=thickness)
@@ -144,7 +148,7 @@ module rj_pin_hole() {
 }
 
 module encoder() {
-    color("#7f7f7f")
+    color("#7f7f00")
     linear_extrude(0.6) {
         translate([35.7, 29.8])
         square([7,2]);
@@ -152,6 +156,11 @@ module encoder() {
         square([2, 3.3]);
         translate([43.85, 21.6])
         square([2, 3.3]);
+    }
+    color("#7f0000")
+    linear_extrude(1) {
+        translate([35.7, 29.8])
+        square([7,2]);
         translate([36.8, 16.3])
         circle(d=2);
         translate([41.77, 16.3])
