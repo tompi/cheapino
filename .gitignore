@@ -45,3 +45,5 @@ adapter/adapter-backups
 **/*-backups
 **/fp-lib-table
 **/*.kicad_sym
+
+.claude
