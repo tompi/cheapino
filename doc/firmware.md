@@ -44,15 +44,15 @@ git remote add tompi https://github.com/tompi/qmk_firmware
 ```
 4. Run this command to actually fetch the code(replace "cheapinov2" with "cheapino" if you are using cheapino v1 pcbs):
 ```sh
-git fetch tompi cheapinov2
+git fetch tompi cheapino-qmk
 ```
 5. Run this command to switch local files to the cheapino variant(again, replace "cheapinov2" with "cheapino" if using v1 pcbs):
 ```sh
-git checkout tompi/cheapinov2
+git checkout tompi/cheapino-qmk
 ```
 6.Now you should be able to make and flash with:
 ```sh
-qmk flash -kb cheapino -km default
+qmk flash -kb cheapino/v2 -km default
 ```
 7. When qmk says "Waiting for drive to deploy", hold boot btn while pressing reset on the rp2040, which should put it in dfu mode, and qmk will then flash.
 
@@ -65,7 +65,7 @@ To make your own version and customize it:
 5. Move the downloaded json file to "keyboards/cheapino/keymaps/thebestkeymap/keymap.json"
 6. Build and flash the keymap with:
 ```sh
-qmk flash -kb cheapino -km thebestkeymap
+qmk flash -kb cheapino/v2 -km thebestkeymap
 ```
 7. When qmk says "Waiting for drive to deploy", hold boot btn while pressing reset on the rp2040, which should put it in dfu mode, and qmk will then flash.
 
